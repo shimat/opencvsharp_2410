@@ -1,4 +1,4 @@
-#OpenCvSharp 2.4.10
+# OpenCvSharp 2.4.10
 Cross platform wrapper of OpenCV 2.4.10 for .NET Framework.
 
 **This project is deprecated. The latest release is available in [OpenCvSharp](https://github.com/shimat/opencvsharp) .**
