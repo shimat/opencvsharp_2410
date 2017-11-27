@@ -23,7 +23,7 @@ If you do not use NuGet, get DLL files from the [release page](https://github.co
 OpenCvSharp may not work on Unity platform. Please consider using [OpenCV for Unity](https://www.assetstore.unity3d.com/en/#!/content/21088)
 
 ## Documents
-http://shimat.github.io/opencvsharp_2410/
+https://shimat.github.io/opencvsharp_2410/index.html
 
 ## Usage
 For more details, see the **[Wiki](https://github.com/shimat/opencvsharp_2410/wiki)** page.
