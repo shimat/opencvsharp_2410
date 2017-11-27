@@ -1,0 +1,161 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvFileStorage Class</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="CvFileStorage class" />
+    <meta name="System.Keywords" content="OpenCvSharp.CvFileStorage class" />
+    <meta name="System.Keywords" content="CvFileStorage class, about CvFileStorage class" />
+    <meta name="Microsoft.Help.F1" content="OpenCvSharp.CvFileStorage" />
+    <meta name="Microsoft.Help.Id" content="T:OpenCvSharp.CvFileStorage" />
+    <meta name="Description" content="File Storage" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="f58a46f7-6b20-7aef-06d2-746c7ff75fa3" />
+    <meta name="guid" content="f58a46f7-6b20-7aef-06d2-746c7ff75fa3" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvFileStorage Class</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            File Storage
+            </div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Inheritance Hierarchy</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="LSTFCF7343_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a><br />  <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">OpenCvSharp<span id="LSTFCF7343_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DisposableObject</a><br />    <a href="f64e86a9-039e-1aa8-ac43-6d11613114c6.htm">OpenCvSharp<span id="LSTFCF7343_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DisposableCvObject</a><br />      <span class="selflink">OpenCvSharp<span id="LSTFCF7343_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvFileStorage</span><br /><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">CvFileStorage</span> : <span class="identifier">DisposableCvObject</span></pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">CvFileStorage</span>
+	<span class="keyword">Inherits</span> <span class="identifier">DisposableCvObject</span></pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">ref class</span> <span class="identifier">CvFileStorage</span> : <span class="keyword">public</span> <span class="identifier">DisposableCvObject</span></pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">type</span> <span class="identifier">CvFileStorage</span> =  
+    <span class="keyword">class</span>
+        <span class="keyword">inherit</span> <span class="identifier">DisposableCvObject</span>
+    <span class="keyword">end</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><p>The <span class="selflink">CvFileStorage</span> type exposes the following members.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Constructors</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="constructorList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e2255ff5-230f-3cb5-90ab-6a9d2a70668b.htm">CvFileStorage(IntPtr)</a></td><td><div class="summary">
+            Initializes from pointer
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ac4251d5-4032-65b4-303e-196ab51e3e4b.htm">CvFileStorage(String, CvMemStorage, FileStorageMode)</a></td><td><div class="summary">
+            Opens file storage for reading or writing data
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6eefd2c7-49a9-f85f-2cb7-93dfb3495d89.htm">CvFileStorage(String, CvMemStorage, FileStorageMode, String)</a></td><td><div class="summary">
+            Opens file storage for reading or writing data
+            </div></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Properties</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="propertyList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="7d2011f2-c4e4-371a-cc58-df3be512dfa7.htm">AllocatedMemory</a></td><td><div class="summary">
+            Gets or sets a memory address allocated by AllocMemory.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="9b39a340-f036-c2e1-007a-95bf49703aab.htm">AllocatedMemorySize</a></td><td><div class="summary">
+            Gets or sets the byte length of the allocated memory
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="5eeeb423-9fb3-5813-430b-61c5fa1774fa.htm">CvPtr</a></td><td><div class="summary">
+            Native pointer of OpenCV structure
+            </div> (Inherited from <a href="f64e86a9-039e-1aa8-ac43-6d11613114c6.htm">DisposableCvObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="5e960c98-171a-904d-c96d-b2fd4c6c2f6e.htm">IsDisposed</a></td><td><div class="summary">
+            Gets a value indicating whether this instance has been disposed.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="99b1d071-84a3-e01a-0adc-63a99c64065c.htm">IsEnabledDispose</a></td><td><div class="summary">
+            Gets or sets a value indicating whether you permit disposing this instance.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="methodList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="c51ac560-30fc-2e46-0668-f4c322253b1c.htm">AllocGCHandle</a></td><td><div class="summary">
+            Pins the object to be allocated by cvSetData.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="3b4d2f5a-6401-97b0-1bd1-64e2226d86b7.htm">AllocMemory</a></td><td><div class="summary">
+            Allocates the specified size of memory.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9d29d96b-6d37-c103-0372-50572cae47b4.htm">Dispose<span id="LSTFCF7343_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+            Releases the resources
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="2e66fdd2-7928-7df6-bde3-c25487aaa96d.htm">Dispose(Boolean)</a></td><td><div class="summary">
+            Clean up any resources being used.
+            </div> (Overrides <a href="02de0556-0eab-d5a0-1a45-9b4ac79522c7.htm">DisposableCvObject<span id="LSTFCF7343_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Dispose(Boolean)</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ed05db14-359f-6b9a-977c-5a3dd6d0fe72.htm">EndWriteStruct</a></td><td><div class="summary">
+            Ends writing a structure
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="fc2ad752-44dc-4339-89b1-5456c5b57e4c.htm">Finalize</a></td><td><div class="summary">
+            Destructor
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4fad7fdd-1a78-dabc-82a9-304e7ca7396f.htm">GetFileNode(CvFileNode, CvStringHashNode)</a></td><td><div class="summary">
+            Finds node in the map or file storage
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="f3ae6be9-00eb-2c59-d279-a030101f9dae.htm">GetFileNode(CvFileNode, CvStringHashNode, Boolean)</a></td><td><div class="summary">
+            Finds node in the map or file storage
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="055d08b0-3c64-eac6-b6ff-9fd5e61f024d.htm">GetFileNodeByName</a></td><td><div class="summary">
+            Finds node in the map or file storage
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="870f07d5-bf6c-d80f-5034-36b977d8859a.htm">GetHashedKey(String)</a></td><td><div class="summary">
+            Returns a unique pointer for given name
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="584a1517-a442-bfed-0b81-76b932a8d6ea.htm">GetHashedKey(String, Boolean)</a></td><td><div class="summary">
+            Returns a unique pointer for given name
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="38310bcf-695a-8988-2b17-3d215df4a6e5.htm">GetRootFileNode<span id="LSTFCF7343_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_6?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+            Retrieves one of top-level nodes of the file storage
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a952ed99-f12f-2eb2-31e4-0955e89d93e9.htm">GetRootFileNode(Int32)</a></td><td><div class="summary">
+            Retrieves one of top-level nodes of the file storage
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/57ctke0a" target="_blank">MemberwiseClone</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="8312f5af-0603-b010-f8f5-4b0f1443c7dd.htm">NotifyMemoryPressure</a></td><td><div class="summary">
+            Notifies the allocated size of memory.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="45762766-5a75-e5fe-a863-d6a689e73043.htm">Read<span id="LSTFCF7343_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_7?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCF7343_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            Decodes object and returns pointer to it
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="78b9d094-9bcb-17ed-3944-09abcc6582e5.htm">ReadByName<span id="LSTFCF7343_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCF7343_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            Finds object and decodes it
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4214aa46-28e1-47a6-38f2-b5cf9ec0395f.htm">ReadIntByName(CvFileNode, String)</a></td><td><div class="summary">
+            Finds file node and returns its value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="08a4e5ec-cafa-ac3f-020b-c193d874a1ca.htm">ReadIntByName(CvFileNode, String, Int32)</a></td><td><div class="summary">
+            Finds file node and returns its value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="bde42448-e9ac-5d0a-345c-6db7a6854f16.htm">ReadRawData<span id="LSTFCF7343_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCF7343_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_12?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            Reads multiple numbers
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="dee83236-feb4-216f-8996-01e1d55a16f0.htm">ReadRawDataSlice<span id="LSTFCF7343_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCF7343_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            Initializes file node sequence reader
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="35ea506a-84dc-d4d4-c9b1-4bea1a1383a8.htm">ReadRealByName(CvFileNode, String)</a></td><td><div class="summary">
+            Finds file node and returns its value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="033180ed-e1e7-8c40-f58b-3f822f389550.htm">ReadRealByName(CvFileNode, String, Double)</a></td><td><div class="summary">
+            Finds file node and returns its value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ccb9b7da-1f1f-f786-0243-a22e2606f68a.htm">ReadStringByName(CvFileNode, String)</a></td><td><div class="summary">
+            Finds file node and returns its value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d82d6a0f-bafa-525a-2cf2-e207f638e060.htm">ReadStringByName(CvFileNode, String, String)</a></td><td><div class="summary">
+            Finds file node and returns its value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="502357e5-6814-ab18-fa97-9b3d73511816.htm">StartNextStream</a></td><td><div class="summary">
+            Starts the next stream
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a98beee0-7664-33e3-48d8-f3110929cde7.htm">StartReadRawData</a></td><td><div class="summary">
+            Initializes file node sequence reader
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="78064cd9-7e0c-d512-8954-f37975fe2bd0.htm">StartWriteStruct(String, NodeType)</a></td><td><div class="summary">
+            Starts writing a new structure
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="83b87480-6335-b812-a788-af3618e59f85.htm">StartWriteStruct(String, NodeType, String)</a></td><td><div class="summary">
+            Starts writing a new structure
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="111a6067-f00e-4980-5804-0e32a5d68ffe.htm">ThrowIfDisposed</a></td><td><div class="summary">
+            If this object is disposed, then ObjectDisposedException is thrown.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ac32214f-cef9-8130-92b5-7ae8cea16441.htm">Write(String, CvArr)</a></td><td><div class="summary">
+            Writes user object
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="17dcb4f3-4a86-1d1a-5718-15cd926a2628.htm">Write(String, CvArr, CvAttrList)</a></td><td><div class="summary">
+            Writes user object
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2f1fb3eb-6f03-32c6-8dc7-0b65fa8a7c9d.htm">WriteComment(String)</a></td><td><div class="summary">
+            Writes comment
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="46b52d49-cbcf-0892-a032-40214e3ea5ed.htm">WriteComment(String, Boolean)</a></td><td><div class="summary">
+            Writes comment
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="3255b33e-1fd6-b7ee-5bb1-bd00cc45b8d6.htm">WriteFileNode</a></td><td><div class="summary">
+            Writes file node to another file storage
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="97eadba4-610f-0aa5-8332-edb746731552.htm">WriteInt</a></td><td><div class="summary">
+            Writes an integer value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8e69f926-1784-81c5-4eb5-139625a71df8.htm">WriteRawData<span id="LSTFCF7343_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFCF7343_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFCF7343_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a></td><td><div class="summary">
+            Writes multiple numbers
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="65694c10-fc90-4c86-d937-dd76cbae4b77.htm">WriteReal</a></td><td><div class="summary">
+            Writes a floating-point value
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b5d3ecec-5c3c-7f0f-7085-c15a722f746e.htm">WriteString(String, String)</a></td><td><div class="summary">
+            Writes a text string
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8bf5d641-66d9-8e01-4b58-cfcdead8da8c.htm">WriteString(String, String, Boolean)</a></td><td><div class="summary">
+            Writes a text string
+            </div></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Fields</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="fieldList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protfield.gif" alt="Protected field" title="Protected field" /></td><td><a href="c344973a-5fea-18ed-9f67-b63ef5b9cbe9.htm">dataHandle</a></td><td><div class="summary">
+            Gets or sets a handle which allocates using cvSetData.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protfield.gif" alt="Protected field" title="Protected field" /></td><td><a href="7a5edc08-9784-24f9-c338-a1efe62d7a0b.htm">ptr</a></td><td><div class="summary">
+            Data pointer
+            </div> (Inherited from <a href="f64e86a9-039e-1aa8-ac43-6d11613114c6.htm">DisposableCvObject</a>.)</td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

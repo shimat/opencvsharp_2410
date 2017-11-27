@@ -1,0 +1,94 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvANN_MLP.Train Method (CvMat, CvMat, CvMat, CvMat, CvANN_MLP_TrainParams, MLPTrainingFlag)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.CvANN_MLP.Train(OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CPlusPlus.CvANN_MLP_TrainParams,OpenCvSharp.CPlusPlus.MLPTrainingFlag)" />
+    <meta name="Description" content="Trains/updates MLP" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="3c5287f4-f222-ee40-d796-f1e59beb44e6" />
+    <meta name="guid" content="3c5287f4-f222-ee40-d796-f1e59beb44e6" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvANN_MLP<span id="LST468093B0_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_0?cpp=::|nu=.");</script>Train Method (CvMat, CvMat, CvMat, CvMat, CvANN_MLP_TrainParams, MLPTrainingFlag)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Trains/updates MLP
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">virtual</span> <span class="identifier">int</span> <span class="identifier">Train</span>(
+	<span class="identifier">CvMat</span> <span class="parameter">inputs</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">outputs</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">sampleWeights</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">sampleIdx</span> = <span class="keyword">null</span>,
+	<span class="identifier">CvANN_MLP_TrainParams</span> <span class="parameter">param</span> = <span class="keyword">null</span>,
+	<span class="identifier">MLPTrainingFlag</span> <span class="parameter">flags</span> = <span class="identifier">MLPTrainingFlag</span>.Zero
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Overridable</span> <span class="keyword">Function</span> <span class="identifier">Train</span> ( 
+	<span class="parameter">inputs</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">outputs</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">sampleWeights</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	Optional <span class="parameter">sampleIdx</span> <span class="keyword">As</span> <span class="identifier">CvMat</span> = <span class="keyword">Nothing</span>,
+	Optional <span class="parameter">param</span> <span class="keyword">As</span> <span class="identifier">CvANN_MLP_TrainParams</span> = <span class="keyword">Nothing</span>,
+	Optional <span class="parameter">flags</span> <span class="keyword">As</span> <span class="identifier">MLPTrainingFlag</span> = <span class="identifier">MLPTrainingFlag</span>.Zero
+) <span class="keyword">As</span> <span class="identifier">Integer</span></pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">virtual</span> <span class="identifier">int</span> <span class="identifier">Train</span>(
+	<span class="identifier">CvMat</span>^ <span class="parameter">inputs</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">outputs</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">sampleWeights</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">sampleIdx</span> = <span class="keyword">nullptr</span>, 
+	<span class="identifier">CvANN_MLP_TrainParams</span>^ <span class="parameter">param</span> = <span class="keyword">nullptr</span>, 
+	<span class="identifier">MLPTrainingFlag</span> <span class="parameter">flags</span> = <span class="identifier">MLPTrainingFlag</span>::Zero
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">abstract</span> <span class="identifier">Train</span> : 
+        <span class="parameter">inputs</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">outputs</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">sampleWeights</span> : <span class="identifier">CvMat</span> * 
+        ?<span class="parameter">sampleIdx</span> : <span class="identifier">CvMat</span> * 
+        ?<span class="parameter">param</span> : <span class="identifier">CvANN_MLP_TrainParams</span> * 
+        ?<span class="parameter">flags</span> : <span class="identifier">MLPTrainingFlag</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">sampleIdx</span> = defaultArg <span class="identifier">sampleIdx</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">param</span> = defaultArg <span class="identifier">param</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">flags</span> = defaultArg <span class="identifier">flags</span> <span class="identifier">MLPTrainingFlag</span>.Zero
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">int</span> 
+<span class="keyword">override</span> <span class="identifier">Train</span> : 
+        <span class="parameter">inputs</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">outputs</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">sampleWeights</span> : <span class="identifier">CvMat</span> * 
+        ?<span class="parameter">sampleIdx</span> : <span class="identifier">CvMat</span> * 
+        ?<span class="parameter">param</span> : <span class="identifier">CvANN_MLP_TrainParams</span> * 
+        ?<span class="parameter">flags</span> : <span class="identifier">MLPTrainingFlag</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">sampleIdx</span> = defaultArg <span class="identifier">sampleIdx</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">param</span> = defaultArg <span class="identifier">param</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">flags</span> = defaultArg <span class="identifier">flags</span> <span class="identifier">MLPTrainingFlag</span>.Zero
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">int</span> </pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">inputs</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LST468093B0_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />A floating-point matrix of input vectors, one vector per row. </dd><dt><span class="parameter">outputs</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LST468093B0_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />A floating-point matrix of the corresponding output vectors, one vector per row. </dd><dt><span class="parameter">sampleWeights</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LST468093B0_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />(RPROP only) The optional floating-point vector of weights for each sample. Some samples may be more important than others for training, e.g. user may want to gain the weight of certain classes to find the right balance between hit-rate and false-alarm rate etc. </dd><dt><span class="parameter">sampleIdx</span> (Optional)</dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LST468093B0_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The optional integer vector indicating the samples (i.e. rows of _inputs and _outputs) that are taken into account. </dd><dt><span class="parameter">param</span> (Optional)</dt><dd>Type: <a href="d2bb00cf-8c27-7b0c-4f9d-02828780e904.htm">OpenCvSharp.CPlusPlus<span id="LST468093B0_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvANN_MLP_TrainParams</a><br />The training params.</dd><dt><span class="parameter">flags</span> (Optional)</dt><dd>Type: <a href="fbdbfd62-c9be-eb9c-1845-ff6a3a36f51b.htm">OpenCvSharp.CPlusPlus<span id="LST468093B0_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST468093B0_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MLPTrainingFlag</a><br />The various parameters to control the training algorithm.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br />the number of done iterations.<div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="71beb392-76ad-9a40-ddf0-7a0e044978a7.htm">CvANN_MLP Class</a></div><div class="seeAlsoStyle"><a href="24d71ab1-30cf-daec-0c75-84eb1a0fd29e.htm">Train Overload</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

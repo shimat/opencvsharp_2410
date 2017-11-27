@@ -1,0 +1,73 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvANN_MLP_TrainParams Properties</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="CvANN_MLP_TrainParams class, properties" />
+    <meta name="Microsoft.Help.Id" content="Properties.T:OpenCvSharp.CPlusPlus.CvANN_MLP_TrainParams" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="4e997255-5e0c-01ef-15ec-a48a641bd03f" />
+    <meta name="guid" content="4e997255-5e0c-01ef-15ec-a48a641bd03f" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvANN_MLP_TrainParams Properties</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <p>The <a href="d2bb00cf-8c27-7b0c-4f9d-02828780e904.htm">CvANN_MLP_TrainParams</a> type exposes the following members.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Properties</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="propertyList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="21cf86b3-1764-9064-a193-2be3f6608716.htm">BpDwScale</a></td><td><div class="summary">
+            (Backpropagation only): The coefficient to multiply the computed weight gradient by. 
+            The recommended value is about 0.1. The parameter can be set via param1 of the constructor. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="d77202da-b18e-099c-6f2c-0ee1e1704821.htm">BpMomentScale</a></td><td><div class="summary">
+            (Backpropagation only): The coefficient to multiply the difference between weights on the 2 previous iterations. 
+            This parameter provides some inertia to smooth the random fluctuations of the weights. It can vary from 0 (the feature is disabled) to 1 and beyond. 
+            The value 0.1 or so is good enough. The parameter can be set via param2 of the constructor. 		
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="55efbbec-da44-cc91-08cb-6bc5a708c560.htm">RpDw0</a></td><td><div class="summary">
+            (RPROP only): Initial magnitude of the weight delta. 
+            The default value is 0.1. This parameter can be set via param1 of the constructor. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="837d7bd6-b038-4c19-f03d-17566ee89165.htm">RpDwMax</a></td><td><div class="summary">
+            (RPROP only): The maximum value of the weight delta. 
+            It must be &gt;1, the default value is 50. The parameter can only be changed explicitly by modifying the structure member. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="80e53e4b-f232-97ea-1044-51ea604f5103.htm">RpDwMin</a></td><td><div class="summary">
+            (RPROP only): The minimum value of the weight delta. 
+            It must be &gt;0, the default value is FLT_EPSILON. The parameter can be set via param2 of the constructor. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="1cec9a0f-ed7c-43f6-e172-8af34343df2c.htm">RpDwMinus</a></td><td><div class="summary">
+            (RPROP only): The decrease factor for the weight delta. 
+            It must be &lt;1, default value is 0.5 that should work well in most cases, according to the algorithm's author.
+            The parameter can only be changed explicitly by modifying the structure member. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="16677912-5eae-c770-fdbe-08b0ee4e3b9f.htm">RpDwPlus</a></td><td><div class="summary">
+            (RPROP only): The increase factor for the weight delta. 
+            It must be &gt;1, default value is 1.2 that should work well in most cases, according to the algorithm's author. 
+            The parameter can only be changed explicitly by modifying the structure member. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="8c6b26c4-def3-f1f8-cb81-58572e58316a.htm">TermCrit</a></td><td><div class="summary">
+            The termination criteria for the training algorithm. 
+            It identifies how many iterations is done by the algorithm (for sequential backpropagation algorithm the number is multiplied by the size of the training set) 
+            and how much the weights could change between the iterations to make the algorithm continue. 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="d3438083-b353-669b-c3a4-9bca8bcd3260.htm">TrainMethod</a></td><td><div class="summary">
+            The training algorithm to use
+            </div></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="d2bb00cf-8c27-7b0c-4f9d-02828780e904.htm">CvANN_MLP_TrainParams Class</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

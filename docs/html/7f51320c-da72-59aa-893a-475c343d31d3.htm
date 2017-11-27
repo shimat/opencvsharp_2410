@@ -1,0 +1,74 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvANN_MLP.Create Method (CvMat, MLPActivationFunc, Double, Double)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.CvANN_MLP.Create(OpenCvSharp.CvMat,OpenCvSharp.CPlusPlus.MLPActivationFunc,System.Double,System.Double)" />
+    <meta name="Description" content="Constructs the MLP with the specified topology" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="7f51320c-da72-59aa-893a-475c343d31d3" />
+    <meta name="guid" content="7f51320c-da72-59aa-893a-475c343d31d3" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvANN_MLP<span id="LST2E07CCAB_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2E07CCAB_0?cpp=::|nu=.");</script>Create Method (CvMat, MLPActivationFunc, Double, Double)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Constructs the MLP with the specified topology
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">Create</span>(
+	<span class="identifier">CvMat</span> <span class="parameter">layerSizes</span>,
+	<span class="identifier">MLPActivationFunc</span> <span class="parameter">activFunc</span> = <span class="identifier">MLPActivationFunc</span>.SigmoidSym,
+	<span class="identifier">double</span> <span class="parameter">fParam1</span> = 0,
+	<span class="identifier">double</span> <span class="parameter">fParam2</span> = 0
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">Create</span> ( 
+	<span class="parameter">layerSizes</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	Optional <span class="parameter">activFunc</span> <span class="keyword">As</span> <span class="identifier">MLPActivationFunc</span> = <span class="identifier">MLPActivationFunc</span>.SigmoidSym,
+	Optional <span class="parameter">fParam1</span> <span class="keyword">As</span> <span class="identifier">Double</span> = 0,
+	Optional <span class="parameter">fParam2</span> <span class="keyword">As</span> <span class="identifier">Double</span> = 0
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">void</span> <span class="identifier">Create</span>(
+	<span class="identifier">CvMat</span>^ <span class="parameter">layerSizes</span>, 
+	<span class="identifier">MLPActivationFunc</span> <span class="parameter">activFunc</span> = <span class="identifier">MLPActivationFunc</span>::SigmoidSym, 
+	<span class="identifier">double</span> <span class="parameter">fParam1</span> = 0, 
+	<span class="identifier">double</span> <span class="parameter">fParam2</span> = 0
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">member</span> <span class="identifier">Create</span> : 
+        <span class="parameter">layerSizes</span> : <span class="identifier">CvMat</span> * 
+        ?<span class="parameter">activFunc</span> : <span class="identifier">MLPActivationFunc</span> * 
+        ?<span class="parameter">fParam1</span> : <span class="identifier">float</span> * 
+        ?<span class="parameter">fParam2</span> : <span class="identifier">float</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">activFunc</span> = defaultArg <span class="identifier">activFunc</span> <span class="identifier">MLPActivationFunc</span>.SigmoidSym
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">fParam1</span> = defaultArg <span class="identifier">fParam1</span> 0
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">fParam2</span> = defaultArg <span class="identifier">fParam2</span> 0
+*)
+<span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">layerSizes</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LST2E07CCAB_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2E07CCAB_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The integer vector specifies the number of neurons in each layer including the input and output layers. </dd><dt><span class="parameter">activFunc</span> (Optional)</dt><dd>Type: <a href="4cf47953-413b-ce05-2d60-fb0d529e8c1c.htm">OpenCvSharp.CPlusPlus<span id="LST2E07CCAB_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2E07CCAB_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MLPActivationFunc</a><br />Specifies the activation function for each neuron</dd><dt><span class="parameter">fParam1</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST2E07CCAB_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2E07CCAB_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />Free parameter α of the activation function</dd><dt><span class="parameter">fParam2</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST2E07CCAB_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2E07CCAB_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />Free parameter β of the activation function</dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="71beb392-76ad-9a40-ddf0-7a0e044978a7.htm">CvANN_MLP Class</a></div><div class="seeAlsoStyle"><a href="4963518e-0549-6046-9441-6c83097e40fc.htm">Create Overload</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

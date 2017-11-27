@@ -1,0 +1,72 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvHaarClassifierCascade.HaarDetectObjects Method (CvArr, CvMemStorage, Double, Int32, HaarDetectionType)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CvHaarClassifierCascade.HaarDetectObjects(OpenCvSharp.CvArr,OpenCvSharp.CvMemStorage,System.Double,System.Int32,OpenCvSharp.HaarDetectionType)" />
+    <meta name="Description" content="Finds rectangular regions in the given image that are likely to contain objects the cascade has been trained for and returns those regions as a sequence of rectangles." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="dd8ba334-baff-0b8f-aa82-83a117dfe156" />
+    <meta name="guid" content="dd8ba334-baff-0b8f-aa82-83a117dfe156" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvHaarClassifierCascade<span id="LST3234DB56_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3234DB56_0?cpp=::|nu=.");</script>HaarDetectObjects Method (CvArr, CvMemStorage, Double, Int32, HaarDetectionType)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Finds rectangular regions in the given image that are likely to contain objects the cascade has been trained for and returns those regions as a sequence of rectangles.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">CvSeq</span> <span class="identifier">HaarDetectObjects</span>(
+	<span class="identifier">CvArr</span> <span class="parameter">image</span>,
+	<span class="identifier">CvMemStorage</span> <span class="parameter">storage</span>,
+	<span class="identifier">double</span> <span class="parameter">scaleFactor</span>,
+	<span class="identifier">int</span> <span class="parameter">minNeighbors</span>,
+	<span class="identifier">HaarDetectionType</span> <span class="parameter">flags</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">HaarDetectObjects</span> ( 
+	<span class="parameter">image</span> <span class="keyword">As</span> <span class="identifier">CvArr</span>,
+	<span class="parameter">storage</span> <span class="keyword">As</span> <span class="identifier">CvMemStorage</span>,
+	<span class="parameter">scaleFactor</span> <span class="keyword">As</span> <span class="identifier">Double</span>,
+	<span class="parameter">minNeighbors</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	<span class="parameter">flags</span> <span class="keyword">As</span> <span class="identifier">HaarDetectionType</span>
+) <span class="keyword">As</span> <span class="identifier">CvSeq</span></pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="identifier">CvSeq</span>^ <span class="identifier">HaarDetectObjects</span>(
+	<span class="identifier">CvArr</span>^ <span class="parameter">image</span>, 
+	<span class="identifier">CvMemStorage</span>^ <span class="parameter">storage</span>, 
+	<span class="identifier">double</span> <span class="parameter">scaleFactor</span>, 
+	<span class="identifier">int</span> <span class="parameter">minNeighbors</span>, 
+	<span class="identifier">HaarDetectionType</span> <span class="parameter">flags</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">member</span> <span class="identifier">HaarDetectObjects</span> : 
+        <span class="parameter">image</span> : <span class="identifier">CvArr</span> * 
+        <span class="parameter">storage</span> : <span class="identifier">CvMemStorage</span> * 
+        <span class="parameter">scaleFactor</span> : <span class="identifier">float</span> * 
+        <span class="parameter">minNeighbors</span> : <span class="identifier">int</span> * 
+        <span class="parameter">flags</span> : <span class="identifier">HaarDetectionType</span> <span class="keyword">-&gt;</span> <span class="identifier">CvSeq</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">image</span></dt><dd>Type: <a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">OpenCvSharp<span id="LST3234DB56_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3234DB56_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvArr</a><br />Image to detect objects in. </dd><dt><span class="parameter">storage</span></dt><dd>Type: <a href="bbc6e181-aeea-09b9-3100-f13b3300059a.htm">OpenCvSharp<span id="LST3234DB56_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3234DB56_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMemStorage</a><br />Memory storage to store the resultant sequence of the object candidate rectangles. </dd><dt><span class="parameter">scaleFactor</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST3234DB56_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3234DB56_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />The factor by which the search window is scaled between the subsequent scans, for example, 1.1 means increasing window by 10%. </dd><dt><span class="parameter">minNeighbors</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST3234DB56_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3234DB56_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Minimum number (minus 1) of neighbor rectangles that makes up an object. All the groups of a smaller number of rectangles than min_neighbors-1 are rejected. If min_neighbors is 0, the function does not any grouping at all and returns all the detected candidate rectangles, which may be useful if the user wants to apply a customized grouping procedure. </dd><dt><span class="parameter">flags</span></dt><dd>Type: <a href="68904abf-1780-d8d3-3817-9421075f4c7e.htm">OpenCvSharp<span id="LST3234DB56_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3234DB56_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>HaarDetectionType</a><br />Mode of operation. Currently the only flag that may be specified is CV_HAAR_DO_CANNY_PRUNING. If it is set, the function uses Canny edge detector to reject some image regions that contain too few or too much edges and thus can not contain the searched object. The particular threshold values are tuned for face detection and in this case the pruning speeds up the processing. </dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="01e84bc5-413b-47d3-08dc-a4f9e8866cf6.htm">CvSeq</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:OpenCvSharp.CvHaarClassifierCascade.HaarDetectObjects(OpenCvSharp.CvArr,OpenCvSharp.CvMemStorage,System.Double,System.Int32,OpenCvSharp.HaarDetectionType)"]</p><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="ceb7da8a-fb53-810a-bcb1-813a69aa5e80.htm">CvHaarClassifierCascade Class</a></div><div class="seeAlsoStyle"><a href="4b96f426-4061-7abc-e05e-1d4954868a7f.htm">HaarDetectObjects Overload</a></div><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

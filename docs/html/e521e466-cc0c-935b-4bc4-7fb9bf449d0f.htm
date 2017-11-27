@@ -1,0 +1,89 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>HOGDescriptor.DetectROI Method </title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="DetectROI method" />
+    <meta name="System.Keywords" content="HOGDescriptor.DetectROI method" />
+    <meta name="Microsoft.Help.F1" content="OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})" />
+    <meta name="Description" content="evaluate specified ROI and return confidence value for each location" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="e521e466-cc0c-935b-4bc4-7fb9bf449d0f" />
+    <meta name="guid" content="e521e466-cc0c-935b-4bc4-7fb9bf449d0f" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">HOGDescriptor<span id="LSTCFBEF906_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_0?cpp=::|nu=.");</script>DetectROI Method </td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            evaluate specified ROI and return confidence value for each location
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">DetectROI</span>(
+	<span class="identifier">Mat</span> <span class="parameter">img</span>,
+	<span class="identifier">Point</span>[] <span class="parameter">locations</span>,
+	<span class="keyword">out</span> <span class="identifier">Point</span>[] <span class="parameter">foundLocations</span>,
+	<span class="keyword">out</span> <span class="identifier">double</span>[] <span class="parameter">confidences</span>,
+	<span class="identifier">double</span> <span class="parameter">hitThreshold</span> = 0,
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">winStride</span> = <span class="keyword">null</span>,
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">padding</span> = <span class="keyword">null</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">DetectROI</span> ( 
+	<span class="parameter">img</span> <span class="keyword">As</span> <span class="identifier">Mat</span>,
+	<span class="parameter">locations</span> <span class="keyword">As</span> <span class="identifier">Point</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">foundLocations</span> <span class="keyword">As</span> <span class="identifier">Point</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">confidences</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
+	Optional <span class="parameter">hitThreshold</span> <span class="keyword">As</span> <span class="identifier">Double</span> = 0,
+	Optional <span class="parameter">winStride</span> <span class="keyword">As</span> <span class="identifier">Nullable</span>(<span class="keyword">Of</span> <span class="identifier">Size</span>) = <span class="keyword">Nothing</span>,
+	Optional <span class="parameter">padding</span> <span class="keyword">As</span> <span class="identifier">Nullable</span>(<span class="keyword">Of</span> <span class="identifier">Size</span>) = <span class="keyword">Nothing</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">void</span> <span class="identifier">DetectROI</span>(
+	<span class="identifier">Mat</span>^ <span class="parameter">img</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">Point</span>&gt;^ <span class="parameter">locations</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">Point</span>&gt;^% <span class="parameter">foundLocations</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">double</span>&gt;^% <span class="parameter">confidences</span>, 
+	<span class="identifier">double</span> <span class="parameter">hitThreshold</span> = 0, 
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">winStride</span> = <span class="keyword">nullptr</span>, 
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">padding</span> = <span class="keyword">nullptr</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">member</span> <span class="identifier">DetectROI</span> : 
+        <span class="parameter">img</span> : <span class="identifier">Mat</span> * 
+        <span class="parameter">locations</span> : <span class="identifier">Point</span>[] * 
+        <span class="parameter">foundLocations</span> : <span class="identifier">Point</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">confidences</span> : <span class="identifier">float</span>[] <span class="keyword">byref</span> * 
+        ?<span class="parameter">hitThreshold</span> : <span class="identifier">float</span> * 
+        ?<span class="parameter">winStride</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; * 
+        ?<span class="parameter">padding</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">hitThreshold</span> = defaultArg <span class="identifier">hitThreshold</span> 0
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">winStride</span> = defaultArg <span class="identifier">winStride</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">padding</span> = defaultArg <span class="identifier">padding</span> <span class="keyword">null</span>
+*)
+<span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">img</span></dt><dd>Type: <a href="1a409a9c-a11e-c90d-aa88-19ba6252227e.htm">OpenCvSharp.CPlusPlus<span id="LSTCFBEF906_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mat</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="img"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd><dt><span class="parameter">locations</span></dt><dd>Type: <span id="LSTCFBEF906_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_2?cpp=array&lt;");</script><a href="3d0fd87e-b391-e91b-01f1-775be1b9501f.htm">OpenCvSharp.CPlusPlus<span id="LSTCFBEF906_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Point</a><span id="LSTCFBEF906_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_4?cpp=&gt;|vb=()|nu=[]");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="locations"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd><dt><span class="parameter">foundLocations</span></dt><dd>Type: <span id="LSTCFBEF906_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_5?cpp=array&lt;");</script><a href="3d0fd87e-b391-e91b-01f1-775be1b9501f.htm">OpenCvSharp.CPlusPlus<span id="LSTCFBEF906_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Point</a><span id="LSTCFBEF906_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_7?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTCFBEF906_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_8?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="foundLocations"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd><dt><span class="parameter">confidences</span></dt><dd>Type: <span id="LSTCFBEF906_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_9?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTCFBEF906_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LSTCFBEF906_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_11?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTCFBEF906_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_12?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="confidences"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd><dt><span class="parameter">hitThreshold</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTCFBEF906_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="hitThreshold"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd><dt><span class="parameter">winStride</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/b3h38hb0" target="_blank">System<span id="LSTCFBEF906_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_14?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Nullable</a><span id="LSTCFBEF906_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_15?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="7b45af0c-0d0e-9c56-df45-78de4b873140.htm">Size</a><span id="LSTCFBEF906_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_16?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="winStride"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd><dt><span class="parameter">padding</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/b3h38hb0" target="_blank">System<span id="LSTCFBEF906_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Nullable</a><span id="LSTCFBEF906_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_18?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="7b45af0c-0d0e-9c56-df45-78de4b873140.htm">Size</a><span id="LSTCFBEF906_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTCFBEF906_19?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="padding"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Point[],OpenCvSharp.CPlusPlus.Point[]@,System.Double[]@,System.Double,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size})"]</p></dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="3b4f148b-8485-9403-e03f-5c4fb723f6e2.htm">HOGDescriptor Class</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

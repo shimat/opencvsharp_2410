@@ -1,0 +1,76 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>DescriptorMatcher.KnnMatch Method (Mat, Int32, Mat[], Boolean)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.DescriptorMatcher.KnnMatch(OpenCvSharp.CPlusPlus.Mat,System.Int32,OpenCvSharp.CPlusPlus.Mat[],System.Boolean)" />
+    <meta name="Description" content="Find k best matches for each query descriptor (in increasing order of distances). compactResult is used when mask is not empty. If compactResult is false matches vector will have the same size as queryDescriptors rows." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="de9d1f3b-2690-daa1-0c1a-9afb17e84d85" />
+    <meta name="guid" content="de9d1f3b-2690-daa1-0c1a-9afb17e84d85" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">DescriptorMatcher<span id="LSTEA3A3851_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_0?cpp=::|nu=.");</script>KnnMatch Method (Mat, Int32, <span id="LSTEA3A3851_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_1?cpp=array&lt;");</script>Mat<span id="LSTEA3A3851_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_2?cpp=&gt;|vb=()|nu=[]");</script>, Boolean)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Find k best matches for each query descriptor (in increasing order of distances).
+            compactResult is used when mask is not empty. If compactResult is false matches
+            vector will have the same size as queryDescriptors rows. If compactResult is true
+            matches vector will not contain matches for fully masked out query descriptors.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">DMatch</span>[][] <span class="identifier">KnnMatch</span>(
+	<span class="identifier">Mat</span> <span class="parameter">queryDescriptors</span>,
+	<span class="identifier">int</span> <span class="parameter">k</span>,
+	<span class="identifier">Mat</span>[] <span class="parameter">masks</span> = <span class="keyword">null</span>,
+	<span class="identifier">bool</span> <span class="parameter">compactResult</span> = <span class="keyword">false</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">KnnMatch</span> ( 
+	<span class="parameter">queryDescriptors</span> <span class="keyword">As</span> <span class="identifier">Mat</span>,
+	<span class="parameter">k</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	Optional <span class="parameter">masks</span> <span class="keyword">As</span> <span class="identifier">Mat</span>() = <span class="keyword">Nothing</span>,
+	Optional <span class="parameter">compactResult</span> <span class="keyword">As</span> <span class="identifier">Boolean</span> = <span class="keyword">false</span>
+) <span class="keyword">As</span> <span class="identifier">DMatch</span>()()</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">array</span>&lt;<span class="keyword">array</span>&lt;<span class="identifier">DMatch</span>&gt;^&gt;^ <span class="identifier">KnnMatch</span>(
+	<span class="identifier">Mat</span>^ <span class="parameter">queryDescriptors</span>, 
+	<span class="identifier">int</span> <span class="parameter">k</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">Mat</span>^&gt;^ <span class="parameter">masks</span> = <span class="keyword">nullptr</span>, 
+	<span class="identifier">bool</span> <span class="parameter">compactResult</span> = <span class="keyword">false</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">member</span> <span class="identifier">KnnMatch</span> : 
+        <span class="parameter">queryDescriptors</span> : <span class="identifier">Mat</span> * 
+        <span class="parameter">k</span> : <span class="identifier">int</span> * 
+        ?<span class="parameter">masks</span> : <span class="identifier">Mat</span>[] * 
+        ?<span class="parameter">compactResult</span> : <span class="identifier">bool</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">masks</span> = defaultArg <span class="identifier">masks</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">compactResult</span> = defaultArg <span class="identifier">compactResult</span> <span class="keyword">false</span>
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">DMatch</span>[][] 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">queryDescriptors</span></dt><dd>Type: <a href="1a409a9c-a11e-c90d-aa88-19ba6252227e.htm">OpenCvSharp.CPlusPlus<span id="LSTEA3A3851_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mat</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="queryDescriptors"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.DescriptorMatcher.KnnMatch(OpenCvSharp.CPlusPlus.Mat,System.Int32,OpenCvSharp.CPlusPlus.Mat[],System.Boolean)"]</p></dd><dt><span class="parameter">k</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LSTEA3A3851_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="k"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.DescriptorMatcher.KnnMatch(OpenCvSharp.CPlusPlus.Mat,System.Int32,OpenCvSharp.CPlusPlus.Mat[],System.Boolean)"]</p></dd><dt><span class="parameter">masks</span> (Optional)</dt><dd>Type: <span id="LSTEA3A3851_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_5?cpp=array&lt;");</script><a href="1a409a9c-a11e-c90d-aa88-19ba6252227e.htm">OpenCvSharp.CPlusPlus<span id="LSTEA3A3851_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mat</a><span id="LSTEA3A3851_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_7?cpp=&gt;|vb=()|nu=[]");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="masks"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.DescriptorMatcher.KnnMatch(OpenCvSharp.CPlusPlus.Mat,System.Int32,OpenCvSharp.CPlusPlus.Mat[],System.Boolean)"]</p></dd><dt><span class="parameter">compactResult</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span id="LSTEA3A3851_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Boolean</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="compactResult"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.DescriptorMatcher.KnnMatch(OpenCvSharp.CPlusPlus.Mat,System.Int32,OpenCvSharp.CPlusPlus.Mat[],System.Boolean)"]</p></dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LSTEA3A3851_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_9?cpp=array&lt;");</script><span id="LSTEA3A3851_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_10?cpp=array&lt;");</script><a href="ac96442a-da16-44b2-e8d1-d5d958595279.htm">DMatch</a><span id="LSTEA3A3851_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_11?cpp=&gt;|vb=()|nu=[]");</script><span id="LSTEA3A3851_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA3A3851_12?cpp=&gt;|vb=()|nu=[]");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:OpenCvSharp.CPlusPlus.DescriptorMatcher.KnnMatch(OpenCvSharp.CPlusPlus.Mat,System.Int32,OpenCvSharp.CPlusPlus.Mat[],System.Boolean)"]</p><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="f8628bb2-cd7c-18e1-78e5-71a8b590732c.htm">DescriptorMatcher Class</a></div><div class="seeAlsoStyle"><a href="9c685819-0b5a-2bdf-5a24-79c194c7df90.htm">KnnMatch Overload</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

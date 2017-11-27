@@ -1,0 +1,68 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvArr.DrawContours Method (CvSeq(CvPoint), CvScalar, CvScalar, Int32)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CvArr.DrawContours(OpenCvSharp.CvSeq{OpenCvSharp.CvPoint},OpenCvSharp.CvScalar,OpenCvSharp.CvScalar,System.Int32)" />
+    <meta name="Description" content="Draws contour outlines or interiors in the image" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="4d88f5a4-fe09-ecec-e6e7-103537b23d4f" />
+    <meta name="guid" content="4d88f5a4-fe09-ecec-e6e7-103537b23d4f" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvArr<span id="LST109AFE04_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_0?cpp=::|nu=.");</script>DrawContours Method (CvSeq<span id="LST109AFE04_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>CvPoint<span id="LST109AFE04_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, CvScalar, CvScalar, Int32)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Draws contour outlines or interiors in the image
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">DrawContours</span>(
+	<span class="identifier">CvSeq</span>&lt;<span class="identifier">CvPoint</span>&gt; <span class="parameter">contour</span>,
+	<span class="identifier">CvScalar</span> <span class="parameter">externalColor</span>,
+	<span class="identifier">CvScalar</span> <span class="parameter">holeColor</span>,
+	<span class="identifier">int</span> <span class="parameter">maxLevel</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">DrawContours</span> ( 
+	<span class="parameter">contour</span> <span class="keyword">As</span> <span class="identifier">CvSeq</span>(<span class="keyword">Of</span> <span class="identifier">CvPoint</span>),
+	<span class="parameter">externalColor</span> <span class="keyword">As</span> <span class="identifier">CvScalar</span>,
+	<span class="parameter">holeColor</span> <span class="keyword">As</span> <span class="identifier">CvScalar</span>,
+	<span class="parameter">maxLevel</span> <span class="keyword">As</span> <span class="identifier">Integer</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">void</span> <span class="identifier">DrawContours</span>(
+	<span class="identifier">CvSeq</span>&lt;<span class="identifier">CvPoint</span>&gt;^ <span class="parameter">contour</span>, 
+	<span class="identifier">CvScalar</span> <span class="parameter">externalColor</span>, 
+	<span class="identifier">CvScalar</span> <span class="parameter">holeColor</span>, 
+	<span class="identifier">int</span> <span class="parameter">maxLevel</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">member</span> <span class="identifier">DrawContours</span> : 
+        <span class="parameter">contour</span> : <span class="identifier">CvSeq</span>&lt;<span class="identifier">CvPoint</span>&gt; * 
+        <span class="parameter">externalColor</span> : <span class="identifier">CvScalar</span> * 
+        <span class="parameter">holeColor</span> : <span class="identifier">CvScalar</span> * 
+        <span class="parameter">maxLevel</span> : <span class="identifier">int</span> <span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">contour</span></dt><dd>Type: <a href="8fb01ee0-c108-362f-3ca1-e8777f8641cb.htm">OpenCvSharp<span id="LST109AFE04_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvSeq</a><span id="LST109AFE04_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="7d7f2121-53a5-9367-40be-cfd1423f92d5.htm">CvPoint</a><span id="LST109AFE04_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />Reference to the first contour. </dd><dt><span class="parameter">externalColor</span></dt><dd>Type: <a href="b2b671b2-4aba-f40c-068f-da40e66835f2.htm">OpenCvSharp<span id="LST109AFE04_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvScalar</a><br />Color of the external contours. </dd><dt><span class="parameter">holeColor</span></dt><dd>Type: <a href="b2b671b2-4aba-f40c-068f-da40e66835f2.htm">OpenCvSharp<span id="LST109AFE04_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvScalar</a><br />Color of internal contours (holes). </dd><dt><span class="parameter">maxLevel</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST109AFE04_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST109AFE04_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Maximal level for drawn contours. If 0, only contour is drawn. If 1, the contour and all contours after it on the same level are drawn. If 2, all contours after and all contours one level below the contours are drawn, etc. If the value is negative, the function does not draw the contours following after contour but draws child contours of contour up to abs(max_level)-1 level. </dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">CvArr Class</a></div><div class="seeAlsoStyle"><a href="757f9513-fddd-6ea7-6efe-2d94e1100628.htm">DrawContours Overload</a></div><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

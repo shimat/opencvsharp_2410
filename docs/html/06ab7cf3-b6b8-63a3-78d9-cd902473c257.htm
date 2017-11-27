@@ -1,0 +1,96 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv2.BuildOpticalFlowPyramid Method (InputArray, OutputArray, Size, Int32, Boolean, BorderType, BorderType, Boolean)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.Cv2.BuildOpticalFlowPyramid(OpenCvSharp.CPlusPlus.InputArray,OpenCvSharp.CPlusPlus.OutputArray,OpenCvSharp.CPlusPlus.Size,System.Int32,System.Boolean,OpenCvSharp.BorderType,OpenCvSharp.BorderType,System.Boolean)" />
+    <meta name="Description" content="Constructs a pyramid which can be used as input for calcOpticalFlowPyrLK" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="06ab7cf3-b6b8-63a3-78d9-cd902473c257" />
+    <meta name="guid" content="06ab7cf3-b6b8-63a3-78d9-cd902473c257" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv2<span id="LST2AA27416_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_0?cpp=::|nu=.");</script>BuildOpticalFlowPyramid Method (InputArray, OutputArray, Size, Int32, Boolean, BorderType, BorderType, Boolean)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Constructs a pyramid which can be used as input for calcOpticalFlowPyrLK
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">int</span> <span class="identifier">BuildOpticalFlowPyramid</span>(
+	<span class="identifier">InputArray</span> <span class="parameter">img</span>,
+	<span class="identifier">OutputArray</span> <span class="parameter">pyramid</span>,
+	<span class="identifier">Size</span> <span class="parameter">winSize</span>,
+	<span class="identifier">int</span> <span class="parameter">maxLevel</span>,
+	<span class="identifier">bool</span> <span class="parameter">withDerivatives</span> = <span class="keyword">true</span>,
+	<span class="identifier">BorderType</span> <span class="parameter">pyrBorder</span> = <span class="identifier">BorderType</span>.Reflect101,
+	<span class="identifier">BorderType</span> <span class="parameter">derivBorder</span> = <span class="identifier">BorderType</span>.Constant,
+	<span class="identifier">bool</span> <span class="parameter">tryReuseInputImage</span> = <span class="keyword">true</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">BuildOpticalFlowPyramid</span> ( 
+	<span class="parameter">img</span> <span class="keyword">As</span> <span class="identifier">InputArray</span>,
+	<span class="parameter">pyramid</span> <span class="keyword">As</span> <span class="identifier">OutputArray</span>,
+	<span class="parameter">winSize</span> <span class="keyword">As</span> <span class="identifier">Size</span>,
+	<span class="parameter">maxLevel</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	Optional <span class="parameter">withDerivatives</span> <span class="keyword">As</span> <span class="identifier">Boolean</span> = <span class="keyword">true</span>,
+	Optional <span class="parameter">pyrBorder</span> <span class="keyword">As</span> <span class="identifier">BorderType</span> = <span class="identifier">BorderType</span>.Reflect101,
+	Optional <span class="parameter">derivBorder</span> <span class="keyword">As</span> <span class="identifier">BorderType</span> = <span class="identifier">BorderType</span>.Constant,
+	Optional <span class="parameter">tryReuseInputImage</span> <span class="keyword">As</span> <span class="identifier">Boolean</span> = <span class="keyword">true</span>
+) <span class="keyword">As</span> <span class="identifier">Integer</span></pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="identifier">int</span> <span class="identifier">BuildOpticalFlowPyramid</span>(
+	<span class="identifier">InputArray</span>^ <span class="parameter">img</span>, 
+	<span class="identifier">OutputArray</span>^ <span class="parameter">pyramid</span>, 
+	<span class="identifier">Size</span> <span class="parameter">winSize</span>, 
+	<span class="identifier">int</span> <span class="parameter">maxLevel</span>, 
+	<span class="identifier">bool</span> <span class="parameter">withDerivatives</span> = <span class="keyword">true</span>, 
+	<span class="identifier">BorderType</span> <span class="parameter">pyrBorder</span> = <span class="identifier">BorderType</span>::Reflect101, 
+	<span class="identifier">BorderType</span> <span class="parameter">derivBorder</span> = <span class="identifier">BorderType</span>::Constant, 
+	<span class="identifier">bool</span> <span class="parameter">tryReuseInputImage</span> = <span class="keyword">true</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">BuildOpticalFlowPyramid</span> : 
+        <span class="parameter">img</span> : <span class="identifier">InputArray</span> * 
+        <span class="parameter">pyramid</span> : <span class="identifier">OutputArray</span> * 
+        <span class="parameter">winSize</span> : <span class="identifier">Size</span> * 
+        <span class="parameter">maxLevel</span> : <span class="identifier">int</span> * 
+        ?<span class="parameter">withDerivatives</span> : <span class="identifier">bool</span> * 
+        ?<span class="parameter">pyrBorder</span> : <span class="identifier">BorderType</span> * 
+        ?<span class="parameter">derivBorder</span> : <span class="identifier">BorderType</span> * 
+        ?<span class="parameter">tryReuseInputImage</span> : <span class="identifier">bool</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">withDerivatives</span> = defaultArg <span class="identifier">withDerivatives</span> <span class="keyword">true</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">pyrBorder</span> = defaultArg <span class="identifier">pyrBorder</span> <span class="identifier">BorderType</span>.Reflect101
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">derivBorder</span> = defaultArg <span class="identifier">derivBorder</span> <span class="identifier">BorderType</span>.Constant
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">tryReuseInputImage</span> = defaultArg <span class="identifier">tryReuseInputImage</span> <span class="keyword">true</span>
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">int</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">img</span></dt><dd>Type: <a href="50172d88-8d10-71ce-bfe9-ff22783233e8.htm">OpenCvSharp.CPlusPlus<span id="LST2AA27416_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputArray</a><br />8-bit input image.</dd><dt><span class="parameter">pyramid</span></dt><dd>Type: <a href="00323f68-6cb4-a6b0-8d05-495fd13d69db.htm">OpenCvSharp.CPlusPlus<span id="LST2AA27416_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>OutputArray</a><br />output pyramid.</dd><dt><span class="parameter">winSize</span></dt><dd>Type: <a href="7b45af0c-0d0e-9c56-df45-78de4b873140.htm">OpenCvSharp.CPlusPlus<span id="LST2AA27416_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Size</a><br />window size of optical flow algorithm. 
+            Must be not less than winSize argument of calcOpticalFlowPyrLK(). 
+            It is needed to calculate required padding for pyramid levels.</dd><dt><span class="parameter">maxLevel</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST2AA27416_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />0-based maximal pyramid level number.</dd><dt><span class="parameter">withDerivatives</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span id="LST2AA27416_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Boolean</a><br />set to precompute gradients for the every pyramid level. 
+            If pyramid is constructed without the gradients then calcOpticalFlowPyrLK() will 
+            calculate them internally.</dd><dt><span class="parameter">pyrBorder</span> (Optional)</dt><dd>Type: <a href="91db7527-217f-c711-2da9-82409141b926.htm">OpenCvSharp<span id="LST2AA27416_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BorderType</a><br />the border mode for pyramid layers.</dd><dt><span class="parameter">derivBorder</span> (Optional)</dt><dd>Type: <a href="91db7527-217f-c711-2da9-82409141b926.htm">OpenCvSharp<span id="LST2AA27416_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BorderType</a><br />the border mode for gradients.</dd><dt><span class="parameter">tryReuseInputImage</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span id="LST2AA27416_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2AA27416_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Boolean</a><br />put ROI of input image into the pyramid if possible. 
+            You can pass false to force data copying.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br />number of levels in constructed pyramid. Can be less than maxLevel.<div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="9062e434-b8f0-fae9-1d86-2808abe07356.htm">Cv2 Class</a></div><div class="seeAlsoStyle"><a href="8cfbcae1-5dc4-0d53-abcf-48862c0417d0.htm">BuildOpticalFlowPyramid Overload</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

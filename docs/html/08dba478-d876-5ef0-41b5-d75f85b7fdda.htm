@@ -1,0 +1,68 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv.MakeHistHeaderForArray Method (Int32, Int32[], CvHistogram, Single[])</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.Cv.MakeHistHeaderForArray(System.Int32,System.Int32[],OpenCvSharp.CvHistogram,System.Single[])" />
+    <meta name="Description" content="Makes a histogram out of array" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="08dba478-d876-5ef0-41b5-d75f85b7fdda" />
+    <meta name="guid" content="08dba478-d876-5ef0-41b5-d75f85b7fdda" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv<span id="LSTE65E71FE_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_0?cpp=::|nu=.");</script>MakeHistHeaderForArray Method (Int32, <span id="LSTE65E71FE_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_1?cpp=array&lt;");</script>Int32<span id="LSTE65E71FE_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_2?cpp=&gt;|vb=()|nu=[]");</script>, CvHistogram, <span id="LSTE65E71FE_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_3?cpp=array&lt;");</script>Single<span id="LSTE65E71FE_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_4?cpp=&gt;|vb=()|nu=[]");</script>)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Makes a histogram out of array
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">CvHistogram</span> <span class="identifier">MakeHistHeaderForArray</span>(
+	<span class="identifier">int</span> <span class="parameter">dims</span>,
+	<span class="identifier">int</span>[] <span class="parameter">sizes</span>,
+	<span class="identifier">CvHistogram</span> <span class="parameter">hist</span>,
+	<span class="identifier">float</span>[] <span class="parameter">data</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">MakeHistHeaderForArray</span> ( 
+	<span class="parameter">dims</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	<span class="parameter">sizes</span> <span class="keyword">As</span> <span class="identifier">Integer</span>(),
+	<span class="parameter">hist</span> <span class="keyword">As</span> <span class="identifier">CvHistogram</span>,
+	<span class="parameter">data</span> <span class="keyword">As</span> <span class="identifier">Single</span>()
+) <span class="keyword">As</span> <span class="identifier">CvHistogram</span></pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="identifier">CvHistogram</span>^ <span class="identifier">MakeHistHeaderForArray</span>(
+	<span class="identifier">int</span> <span class="parameter">dims</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">int</span>&gt;^ <span class="parameter">sizes</span>, 
+	<span class="identifier">CvHistogram</span>^ <span class="parameter">hist</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">float</span>&gt;^ <span class="parameter">data</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">MakeHistHeaderForArray</span> : 
+        <span class="parameter">dims</span> : <span class="identifier">int</span> * 
+        <span class="parameter">sizes</span> : <span class="identifier">int</span>[] * 
+        <span class="parameter">hist</span> : <span class="identifier">CvHistogram</span> * 
+        <span class="parameter">data</span> : <span class="identifier">float32</span>[] <span class="keyword">-&gt;</span> <span class="identifier">CvHistogram</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">dims</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LSTE65E71FE_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Number of histogram dimensions. </dd><dt><span class="parameter">sizes</span></dt><dd>Type: <span id="LSTE65E71FE_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_6?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LSTE65E71FE_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><span id="LSTE65E71FE_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_8?cpp=&gt;|vb=()|nu=[]");</script><br />Array of histogram dimension sizes. </dd><dt><span class="parameter">hist</span></dt><dd>Type: <a href="ef9c6200-5252-cbbe-ce98-c5fed01f7bba.htm">OpenCvSharp<span id="LSTE65E71FE_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvHistogram</a><br />The histogram header initialized by the function. </dd><dt><span class="parameter">data</span></dt><dd>Type: <span id="LSTE65E71FE_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_10?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/3www918f" target="_blank">System<span id="LSTE65E71FE_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Single</a><span id="LSTE65E71FE_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE65E71FE_12?cpp=&gt;|vb=()|nu=[]");</script><br />Array that will be used to store histogram bins. </dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="ef9c6200-5252-cbbe-ce98-c5fed01f7bba.htm">CvHistogram</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:OpenCvSharp.Cv.MakeHistHeaderForArray(System.Int32,System.Int32[],OpenCvSharp.CvHistogram,System.Single[])"]</p><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="8b8e6978-d4b3-8679-47d1-ddd2cb8d9fab.htm">Cv Class</a></div><div class="seeAlsoStyle"><a href="0cff8ed6-890d-7dd6-3a29-22ef09c52477.htm">MakeHistHeaderForArray Overload</a></div><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

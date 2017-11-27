@@ -1,0 +1,80 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>HOGDescriptor.DetectMultiScaleROI Method </title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="DetectMultiScaleROI method" />
+    <meta name="System.Keywords" content="HOGDescriptor.DetectMultiScaleROI method" />
+    <meta name="Microsoft.Help.F1" content="OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Rect[]@,OpenCvSharp.CPlusPlus.DetectionROI[]@,System.Double,System.Int32)" />
+    <meta name="Description" content="evaluate specified ROI and return confidence value for each location in multiple scales" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="d06aa00c-fa5c-6e0e-a9b0-6193f5e291d8" />
+    <meta name="guid" content="d06aa00c-fa5c-6e0e-a9b0-6193f5e291d8" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">HOGDescriptor<span id="LST88A8797D_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_0?cpp=::|nu=.");</script>DetectMultiScaleROI Method </td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            evaluate specified ROI and return confidence value for each location in multiple scales
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">DetectMultiScaleROI</span>(
+	<span class="identifier">Mat</span> <span class="parameter">img</span>,
+	<span class="keyword">out</span> <span class="identifier">Rect</span>[] <span class="parameter">foundLocations</span>,
+	<span class="keyword">out</span> <span class="identifier">DetectionROI</span>[] <span class="parameter">locations</span>,
+	<span class="identifier">double</span> <span class="parameter">hitThreshold</span> = 0,
+	<span class="identifier">int</span> <span class="parameter">groupThreshold</span> = 0
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">DetectMultiScaleROI</span> ( 
+	<span class="parameter">img</span> <span class="keyword">As</span> <span class="identifier">Mat</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">foundLocations</span> <span class="keyword">As</span> <span class="identifier">Rect</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">locations</span> <span class="keyword">As</span> <span class="identifier">DetectionROI</span>(),
+	Optional <span class="parameter">hitThreshold</span> <span class="keyword">As</span> <span class="identifier">Double</span> = 0,
+	Optional <span class="parameter">groupThreshold</span> <span class="keyword">As</span> <span class="identifier">Integer</span> = 0
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">void</span> <span class="identifier">DetectMultiScaleROI</span>(
+	<span class="identifier">Mat</span>^ <span class="parameter">img</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">Rect</span>&gt;^% <span class="parameter">foundLocations</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">DetectionROI</span>^&gt;^% <span class="parameter">locations</span>, 
+	<span class="identifier">double</span> <span class="parameter">hitThreshold</span> = 0, 
+	<span class="identifier">int</span> <span class="parameter">groupThreshold</span> = 0
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">member</span> <span class="identifier">DetectMultiScaleROI</span> : 
+        <span class="parameter">img</span> : <span class="identifier">Mat</span> * 
+        <span class="parameter">foundLocations</span> : <span class="identifier">Rect</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">locations</span> : <span class="identifier">DetectionROI</span>[] <span class="keyword">byref</span> * 
+        ?<span class="parameter">hitThreshold</span> : <span class="identifier">float</span> * 
+        ?<span class="parameter">groupThreshold</span> : <span class="identifier">int</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">hitThreshold</span> = defaultArg <span class="identifier">hitThreshold</span> 0
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">groupThreshold</span> = defaultArg <span class="identifier">groupThreshold</span> 0
+*)
+<span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">img</span></dt><dd>Type: <a href="1a409a9c-a11e-c90d-aa88-19ba6252227e.htm">OpenCvSharp.CPlusPlus<span id="LST88A8797D_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mat</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="img"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Rect[]@,OpenCvSharp.CPlusPlus.DetectionROI[]@,System.Double,System.Int32)"]</p></dd><dt><span class="parameter">foundLocations</span></dt><dd>Type: <span id="LST88A8797D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_2?cpp=array&lt;");</script><a href="8bba2112-a357-e837-7a39-4818222c6b03.htm">OpenCvSharp.CPlusPlus<span id="LST88A8797D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Rect</a><span id="LST88A8797D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_4?cpp=&gt;|vb=()|nu=[]");</script><span id="LST88A8797D_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_5?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="foundLocations"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Rect[]@,OpenCvSharp.CPlusPlus.DetectionROI[]@,System.Double,System.Int32)"]</p></dd><dt><span class="parameter">locations</span></dt><dd>Type: <span id="LST88A8797D_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_6?cpp=array&lt;");</script><a href="1060ba98-416e-7a9c-062d-6091d7c0a69f.htm">OpenCvSharp.CPlusPlus<span id="LST88A8797D_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>DetectionROI</a><span id="LST88A8797D_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_8?cpp=&gt;|vb=()|nu=[]");</script><span id="LST88A8797D_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_9?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="locations"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Rect[]@,OpenCvSharp.CPlusPlus.DetectionROI[]@,System.Double,System.Int32)"]</p></dd><dt><span class="parameter">hitThreshold</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST88A8797D_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="hitThreshold"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Rect[]@,OpenCvSharp.CPlusPlus.DetectionROI[]@,System.Double,System.Int32)"]</p></dd><dt><span class="parameter">groupThreshold</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST88A8797D_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST88A8797D_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="groupThreshold"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.HOGDescriptor.DetectMultiScaleROI(OpenCvSharp.CPlusPlus.Mat,OpenCvSharp.CPlusPlus.Rect[]@,OpenCvSharp.CPlusPlus.DetectionROI[]@,System.Double,System.Int32)"]</p></dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="3b4f148b-8485-9403-e03f-5c4fb723f6e2.htm">HOGDescriptor Class</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv2Gpu.MatchTemplate Method </title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="MatchTemplate method" />
+    <meta name="System.Keywords" content="Cv2Gpu.MatchTemplate method" />
+    <meta name="Microsoft.Help.F1" content="OpenCvSharp.CPlusPlus.Gpu.Cv2Gpu.MatchTemplate" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.Gpu.Cv2Gpu.MatchTemplate(OpenCvSharp.CPlusPlus.Gpu.GpuMat,OpenCvSharp.CPlusPlus.Gpu.GpuMat,OpenCvSharp.CPlusPlus.Gpu.GpuMat,OpenCvSharp.MatchTemplateMethod,OpenCvSharp.CPlusPlus.Gpu.Stream)" />
+    <meta name="Description" content="Computes a proximity map for a raster template and an image where the template is searched for." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus.Gpu" />
+    <meta name="file" content="5bda4e2e-d643-6f70-f417-28902efb3cd8" />
+    <meta name="guid" content="5bda4e2e-d643-6f70-f417-28902efb3cd8" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv2Gpu<span id="LST141665_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST141665_0?cpp=::|nu=.");</script>MatchTemplate Method </td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Computes a proximity map for a raster template and an image where the template is searched for.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="95c7ddb5-e97b-e356-3c74-ca0baa58e4f7.htm">OpenCvSharp.CPlusPlus.Gpu</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">MatchTemplate</span>(
+	<span class="identifier">GpuMat</span> <span class="parameter">image</span>,
+	<span class="identifier">GpuMat</span> <span class="parameter">templ</span>,
+	<span class="identifier">GpuMat</span> <span class="parameter">result</span>,
+	<span class="identifier">MatchTemplateMethod</span> <span class="parameter">method</span>,
+	<span class="identifier">Stream</span> <span class="parameter">stream</span> = <span class="keyword">null</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Sub</span> <span class="identifier">MatchTemplate</span> ( 
+	<span class="parameter">image</span> <span class="keyword">As</span> <span class="identifier">GpuMat</span>,
+	<span class="parameter">templ</span> <span class="keyword">As</span> <span class="identifier">GpuMat</span>,
+	<span class="parameter">result</span> <span class="keyword">As</span> <span class="identifier">GpuMat</span>,
+	<span class="parameter">method</span> <span class="keyword">As</span> <span class="identifier">MatchTemplateMethod</span>,
+	Optional <span class="parameter">stream</span> <span class="keyword">As</span> <span class="identifier">Stream</span> = <span class="keyword">Nothing</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">MatchTemplate</span>(
+	<span class="identifier">GpuMat</span>^ <span class="parameter">image</span>, 
+	<span class="identifier">GpuMat</span>^ <span class="parameter">templ</span>, 
+	<span class="identifier">GpuMat</span>^ <span class="parameter">result</span>, 
+	<span class="identifier">MatchTemplateMethod</span> <span class="parameter">method</span>, 
+	<span class="identifier">Stream</span>^ <span class="parameter">stream</span> = <span class="keyword">nullptr</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">MatchTemplate</span> : 
+        <span class="parameter">image</span> : <span class="identifier">GpuMat</span> * 
+        <span class="parameter">templ</span> : <span class="identifier">GpuMat</span> * 
+        <span class="parameter">result</span> : <span class="identifier">GpuMat</span> * 
+        <span class="parameter">method</span> : <span class="identifier">MatchTemplateMethod</span> * 
+        ?<span class="parameter">stream</span> : <span class="identifier">Stream</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">stream</span> = defaultArg <span class="identifier">stream</span> <span class="keyword">null</span>
+*)
+<span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">image</span></dt><dd>Type: <a href="903c5d64-02a4-76d8-01ed-c9c5f131fb59.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST141665_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST141665_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GpuMat</a><br />Source image. CV_32F and CV_8U depth images (1..4 channels) are supported for now.</dd><dt><span class="parameter">templ</span></dt><dd>Type: <a href="903c5d64-02a4-76d8-01ed-c9c5f131fb59.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST141665_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST141665_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GpuMat</a><br />Template image with the size and type the same as image.</dd><dt><span class="parameter">result</span></dt><dd>Type: <a href="903c5d64-02a4-76d8-01ed-c9c5f131fb59.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST141665_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST141665_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GpuMat</a><br />Map containing comparison results (CV_32FC1). If image is W x H and templ is w x h, then result must be W-w+1 x H-h+1.</dd><dt><span class="parameter">method</span></dt><dd>Type: <a href="f2f7968d-09e9-c6f8-13ab-8718c853f50b.htm">OpenCvSharp<span id="LST141665_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST141665_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MatchTemplateMethod</a><br />Specifies the way to compare the template with the image.</dd><dt><span class="parameter">stream</span> (Optional)</dt><dd>Type: <a href="5aad7056-48f3-4b2f-9c79-8445f9460c9e.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST141665_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST141665_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Stream</a><br />Stream for the asynchronous version.</dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="935c5842-4884-9179-f981-03cc430f270d.htm">Cv2Gpu Class</a></div><div class="seeAlsoStyle"><a href="95c7ddb5-e97b-e356-3c74-ca0baa58e4f7.htm">OpenCvSharp.CPlusPlus.Gpu Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

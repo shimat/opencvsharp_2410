@@ -1,0 +1,378 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CvColor Structure</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="CvColor structure" />
+    <meta name="System.Keywords" content="OpenCvSharp.CvColor structure" />
+    <meta name="System.Keywords" content="CvColor structure, about CvColor structure" />
+    <meta name="Microsoft.Help.F1" content="OpenCvSharp.CvColor" />
+    <meta name="Microsoft.Help.Id" content="T:OpenCvSharp.CvColor" />
+    <meta name="Description" content="Structure that represents RGB color (alias of CvScalar)." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="7192be82-4262-5051-085e-df7d9c5e6a86" />
+    <meta name="guid" content="7192be82-4262-5051-085e-df7d9c5e6a86" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CvColor Structure</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Structure that represents RGB color (alias of CvScalar).
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">struct</span> <span class="identifier">CvColor</span> : <span class="identifier">IEquatable</span>&lt;<span class="identifier">CvColor</span>&gt;</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve">&lt;<span class="identifier">SerializableAttribute</span>&gt;
+<span class="keyword">Public</span> <span class="keyword">Structure</span> <span class="identifier">CvColor</span>
+	<span class="keyword">Implements</span> <span class="identifier">IEquatable</span>(<span class="keyword">Of</span> <span class="identifier">CvColor</span>)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve">[<span class="identifier">SerializableAttribute</span>]
+<span class="keyword">public</span> <span class="keyword">value class</span> <span class="identifier">CvColor</span> : <span class="identifier">IEquatable</span>&lt;<span class="identifier">CvColor</span>&gt;</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve">[&lt;<span class="identifier">SealedAttribute</span>&gt;]
+[&lt;<span class="identifier">SerializableAttribute</span>&gt;]
+<span class="keyword">type</span> <span class="identifier">CvColor</span> =  
+    <span class="keyword">struct</span>
+        <span class="keyword">interface</span> <span class="identifier">IEquatable</span>&lt;<span class="identifier">CvColor</span>&gt;
+    <span class="keyword">end</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><p>The <span class="selflink">CvColor</span> type exposes the following members.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Constructors</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="constructorList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ed1068cc-1c68-09a3-cbe9-ba1aa4921248.htm">CvColor(Int32)</a></td><td><div class="summary">
+            Construct from 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="f00bed6f-73fb-70c5-cdaf-f0198fec91f2.htm">CvColor(Byte, Byte, Byte)</a></td><td><div class="summary">
+            Constructor
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="64727b89-f211-857d-3694-43df755e0db1.htm">CvColor(Int32, Int32, Int32)</a></td><td><div class="summary">
+            Constructor
+            </div></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="methodList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="419e466a-bd27-67f1-5b9c-a62173f12d80.htm">Equals(Object)</a></td><td><div class="summary">
+            Specifies whether this object contains the same members as the specified Object.
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/2dts52z7" target="_blank">ValueType<span id="LSTEB47502D_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Equals(Object)</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b4fba70e-4b4f-4f24-9891-5e399ffaa85b.htm">Equals(CvColor)</a></td><td><div class="summary">
+            Specifies whether this object contains the same members as the specified Object.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="52f69fad-7ef0-661f-a41c-785741d4859e.htm">GetHashCode</a></td><td><div class="summary">
+            Returns a hash code for this object.
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/y3509fc2" target="_blank">ValueType<span id="LSTEB47502D_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GetHashCode<span id="LSTEB47502D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_2?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="61078931-e274-2771-7b95-641f6c8e32b7.htm">Random</a></td><td><div class="summary">
+            Creates a random color
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d00c099f-d517-517c-f888-d5427ac8b546.htm">ToString</a></td><td><div class="summary">
+            Converts this object to a human readable string.
+            </div> (Overrides <a href="http://msdn2.microsoft.com/en-us/library/wb77sz3h" target="_blank">ValueType<span id="LSTEB47502D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ToString<span id="LSTEB47502D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_4?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Operators</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="operatorList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a240f12f-1205-69a2-e740-37050080ceb4.htm">Equality</a></td><td><div class="summary">
+            Compares two CvPoint objects. The result specifies whether the members of each CvPoint object are equal.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="08659e11-9c83-4cd3-3e8e-79bbe587d015.htm"><span id="LSTEB47502D_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_5?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(CvColor to CvScalar)</a></td><td><div class="summary">
+            Creates a CvScalar with the members of the specified CvColor.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="ed687882-2716-a073-5bb3-f7cfea7b488e.htm"><span id="LSTEB47502D_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEB47502D_6?cs=Implicit|vb=Widening|cpp=Implicit|nu=Implicit|fs=Implicit");</script>(CvScalar to CvColor)</a></td><td><div class="summary">
+            Creates a CvColor with the members of the specified CvScalar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/puboperator.gif" alt="Public operator" title="Public operator" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="fb967eaf-cc9b-a513-bb18-633bb90ffbf1.htm">Inequality</a></td><td><div class="summary">
+            Compares two CvPoint objects. The result specifies whether the members of each CvPoint object are unequal.
+            </div></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Fields</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="fieldList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="136f25dc-38e0-46a6-e64a-fddd90a7225c.htm">AliceBlue</a></td><td><div class="summary">
+            #F0F8FF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="00add1d8-67b6-941c-f996-48e21e0a0ca7.htm">AntiqueWhite</a></td><td><div class="summary">
+            #FAEBD7 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="59fc9173-1c65-14d8-601b-aee9d810f742.htm">Aqua</a></td><td><div class="summary">
+            #00FFFF 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="637d3454-a257-e827-d36e-5b390415159a.htm">Aquamarine</a></td><td><div class="summary">
+            #7FFFD4
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a135133b-0f28-e218-f543-b030c9903d3e.htm">Azure</a></td><td><div class="summary">
+            #F0FFFF
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /></td><td><a href="1f80e304-323f-3600-4878-ec8a16a3b75d.htm">B</a></td><td><div class="summary">
+            Blue
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a3a986ad-deef-8862-f7db-eefbbc08518d.htm">Beige</a></td><td><div class="summary">
+            #F5F5DC
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="81104069-9619-8519-4f9f-1ee5570bb065.htm">Bisque</a></td><td><div class="summary">
+            #FFE4C4
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b6f76470-a0bb-462f-7ab5-d4babba87c7c.htm">Black</a></td><td><div class="summary">
+            #000000
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="c17aff94-80a0-d0d0-0cc3-d46caffa53b7.htm">BlanchedAlmond</a></td><td><div class="summary">
+            #FFEBCD
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="dcaf3779-e6ad-5cda-1d04-f777400e51fd.htm">Blue</a></td><td><div class="summary">
+            #0000FF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="07e22c8d-33d1-5fd2-6a9b-5394c027fc57.htm">BlueViolet</a></td><td><div class="summary">
+            #8A2BE2
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="22608ae1-5ac4-3161-d6ab-9b27e3b07469.htm">Brown</a></td><td><div class="summary">
+            #A52A2A 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="dde1548a-7ea2-bef8-31b9-718fccbb6a22.htm">BurlyWood</a></td><td><div class="summary">
+            #DEB887
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="bc63abeb-4cf5-1c86-a16d-6a603f8b2a87.htm">CadetBlue</a></td><td><div class="summary">
+            #5F9EA0 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="6c030ee8-29c1-4c21-9cdc-320a76bd6440.htm">Chartreuse</a></td><td><div class="summary">
+            #7FFF00 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="2af36794-73ff-8aba-fd59-df725db07610.htm">Chocolate</a></td><td><div class="summary">
+            #D2691E
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4e906efd-68f9-91af-db4d-aed6c676cbdf.htm">Coral</a></td><td><div class="summary">
+            #FF7F50
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b3ebff80-24ec-f4d8-114f-dfcee8f53cb1.htm">CornflowerBlue</a></td><td><div class="summary">
+            #6495ED
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="0d9af43c-d614-4d88-dcd0-16a9b88428f4.htm">Cornsilk</a></td><td><div class="summary">
+            #FFF8DC
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="d1258a0b-9bb8-6815-7ed7-e754420f512a.htm">Crimson</a></td><td><div class="summary">
+            #DC143C
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="ac956cb8-1606-9809-d7a9-74a828fcdfb1.htm">Cyan</a></td><td><div class="summary">
+            #00FFFF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="3bc0919e-ecc8-ddef-c440-8dbd2d21f56b.htm">DarkBlue</a></td><td><div class="summary">
+            #00008B
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="e8f4c3af-42f4-8dc7-bff7-f1d02ab7b9e2.htm">DarkCyan</a></td><td><div class="summary">
+            #008B8B
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="90df381a-49b0-7e81-1739-eacd81f7ca7f.htm">DarkGoldenrod</a></td><td><div class="summary">
+            #B8860B
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="1715ad76-a839-edd5-b49a-1a6aa18dd2b8.htm">DarkGray</a></td><td><div class="summary">
+            #A9A9A9
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="c3712825-7a55-8089-60ff-7a97b36d2ae6.htm">DarkGreen</a></td><td><div class="summary">
+            #006400
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="91343adc-3f26-782e-ab4b-804d7cd6085b.htm">DarkKhaki</a></td><td><div class="summary">
+            #BDB76B
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="96d31aba-2106-834f-bf93-7c4fe05d3abc.htm">DarkMagenta</a></td><td><div class="summary">
+            #8B008B
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="185e139b-6cb5-fad1-1178-b36806827263.htm">DarkOliveGreen</a></td><td><div class="summary">
+            #556B2F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="dd6a9ae9-a912-e0e9-016d-37c8aaefc923.htm">DarkOrange</a></td><td><div class="summary">
+            #FF8C00 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="063d6afa-8344-b375-ad99-5b82266ec06b.htm">DarkOrchid</a></td><td><div class="summary">
+            #9932CC
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="93cecd6f-a968-fff5-7774-d52f0462b1df.htm">DarkRed</a></td><td><div class="summary">
+            #8B0000
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="ecc94ace-ca1f-07c0-2608-8905effba15a.htm">DarkSalmon</a></td><td><div class="summary">
+            #E9967A
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="d0888eb3-e975-7f8b-bc37-5a71ebf315bd.htm">DarkSeaGreen</a></td><td><div class="summary">
+            #8FBC8F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="e7799a96-df77-0f78-3cda-d33559ffb22d.htm">DarkSlateBlue</a></td><td><div class="summary">
+            #483D8B
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="5261261f-b99e-fc5c-e810-19933e01992e.htm">DarkSlateGray</a></td><td><div class="summary">
+            #2F4F4F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="c423c7d9-3a92-99ea-14a2-f4733747a6fb.htm">DarkTurquoise</a></td><td><div class="summary">
+            #00CED1 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="6725bf55-197f-8ec2-d276-9954fcd303a1.htm">DarkViolet</a></td><td><div class="summary">
+            #9400D3
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b707cfcc-b41c-b32b-85a5-2b326d722e05.htm">DeepPink</a></td><td><div class="summary">
+            #FF1493
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a164e81d-3273-99fb-7084-970d483c7d03.htm">DeepSkyBlue</a></td><td><div class="summary">
+            #00BFFF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="e07cd5f9-6600-96ee-2393-fc92e167744a.htm">DimGray</a></td><td><div class="summary">
+            #696969
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4a76daab-d87c-8062-079e-0cf2da9998ff.htm">DodgerBlue</a></td><td><div class="summary">
+            #1E90FF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="151edd74-809d-d2fb-f4a4-e0f54e457b3e.htm">Firebrick</a></td><td><div class="summary">
+            #B22222
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="2eda2de4-8edb-230d-e459-324e63bd3d52.htm">FloralWhite</a></td><td><div class="summary">
+            #FFFAF0 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="eee35905-1b8e-7890-ebe8-b69c8ffdfb5c.htm">ForestGreen</a></td><td><div class="summary">
+            #228B22
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f82e37dd-6c66-fd36-ae3d-0ba7de479070.htm">Fuchsia</a></td><td><div class="summary">
+            #FF00FF 
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /></td><td><a href="76281d80-95c2-9c62-6aac-b24222f481c9.htm">G</a></td><td><div class="summary">
+            Green
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="af904caa-1a67-2fea-cdb9-ca469213cba0.htm">Gainsboro</a></td><td><div class="summary">
+            #DCDCDC
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="da6debfd-952d-f55d-6573-abad8a58e869.htm">GhostWhite</a></td><td><div class="summary">
+            #F8F8FF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b7be7487-6d9c-d37e-9a8f-e746e8994f91.htm">Gold</a></td><td><div class="summary">
+            #FFD700
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="8310c315-ecf2-e476-21b7-10de7b869023.htm">Goldenrod</a></td><td><div class="summary">
+            #DAA520
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="422ddada-01df-ceb2-d5e3-d04b6012802b.htm">Gray</a></td><td><div class="summary">
+            #808080
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="1e6b0a80-e14f-5a2b-06b1-64309b5fd6bd.htm">Green</a></td><td><div class="summary">
+            #008000
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a4935142-3d57-1ddd-cead-d733de8c0e16.htm">GreenYellow</a></td><td><div class="summary">
+            #ADFF2F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="95353229-200d-2c51-7d8f-7e6d2209f5ed.htm">Honeydew</a></td><td><div class="summary">
+            #F0FFF0
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="c69a842f-9d37-ca79-c815-a89efd3a9231.htm">HotPink</a></td><td><div class="summary">
+            #FF69B4
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a038dfa2-cc90-5b4a-09f9-c6d3092ba5f9.htm">IndianRed</a></td><td><div class="summary">
+            #CD5C5C
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="83506341-3d1a-846d-eda1-2a2ff02d580b.htm">Indigo</a></td><td><div class="summary">
+            #4B0082
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="d4f464bf-1a72-6010-1801-8be7d4f2157a.htm">Ivory</a></td><td><div class="summary">
+            #FFFFF0
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="5b4ae147-fc97-8560-4efc-b818531886d6.htm">Khaki</a></td><td><div class="summary">
+            #F0E68C
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="07857048-eade-af94-67fd-1347b97eacaf.htm">Lavender</a></td><td><div class="summary">
+            #E6E6FA
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="18977ed0-9b78-4d7d-bba6-8b0df4f949a5.htm">LavenderBlush</a></td><td><div class="summary">
+            #FFF0F5 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a369e316-acbc-3336-6664-1a9b96f31ef7.htm">LawnGreen</a></td><td><div class="summary">
+            #7CFC00
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="7beec14f-48e8-2217-3a88-3f8bc53273d7.htm">LemonChiffon</a></td><td><div class="summary">
+            #FFFACD
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="1d386b15-2074-213b-0e23-706d8e32a873.htm">LightBlue</a></td><td><div class="summary">
+            #ADD8E6
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b075d4e0-e1bf-9e01-1c15-629f47dfd4f4.htm">LightCoral</a></td><td><div class="summary">
+            #F08080
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="1f80d88a-784e-6b3d-b7ad-e57ee21d2d8a.htm">LightCyan</a></td><td><div class="summary">
+            #E0FFFF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="ecdd7fd5-6230-ba7b-f859-d5495898f480.htm">LightGoldenrodYellow</a></td><td><div class="summary">
+            #FAFAD2
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4c0f3db0-65c3-512e-e8fc-762b51255c9a.htm">LightGray</a></td><td><div class="summary">
+            #D3D3D3
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="eb8d5dbb-3d40-0682-f800-3a826c23e400.htm">LightGreen</a></td><td><div class="summary">
+            #90EE90 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a95c681c-a164-d6d4-ddd4-0b31a74be5e7.htm">LightPink</a></td><td><div class="summary">
+            #FFB6C1
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="dfcfd301-6d2c-e14e-d427-beb4422d17b8.htm">LightSalmon</a></td><td><div class="summary">
+            #FFA07A
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="438cecba-254e-4c8b-f55c-179b0a40a4e9.htm">LightSeaGreen</a></td><td><div class="summary">
+            #20B2AA
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="280e079c-7bcb-70af-ddf2-23487ff92731.htm">LightSkyBlue</a></td><td><div class="summary">
+            #87CEFA 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f871d124-f35d-bada-14ba-5016d3aa9db6.htm">LightSlateGray</a></td><td><div class="summary">
+            #778899
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="eb3626b9-1758-69c4-3ba4-1a0e3478820c.htm">LightSteelBlue</a></td><td><div class="summary">
+            #B0C4DE 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="db458cee-c7c3-a54f-878b-bd88761a57b2.htm">LightYellow</a></td><td><div class="summary">
+            #FFFFE0
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="22d734b9-2e2f-dd9a-2da7-11ec546df0bd.htm">Lime</a></td><td><div class="summary">
+            #00FF00
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f63b06b4-345f-af7b-dfc7-e058842f501a.htm">LimeGreen</a></td><td><div class="summary">
+            #32CD32
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="91a050cf-de7e-3d8b-acdf-be0bab6820fb.htm">Linen</a></td><td><div class="summary">
+            #FAF0E6
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="d9c626fd-508a-6f35-1f30-1443b7272920.htm">Magenta</a></td><td><div class="summary">
+            #FF00FF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f5eea467-caec-d16d-29c2-f1d14351ceb9.htm">Maroon</a></td><td><div class="summary">
+            #800000
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b4ce737a-40d0-06e8-ce47-0dd7245e330f.htm">MediumAquamarine</a></td><td><div class="summary">
+            #66CDAA
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="cb7de59d-6337-1e54-c012-b717b4577c4d.htm">MediumBlue</a></td><td><div class="summary">
+            #0000CD
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4f295212-ad25-a6ef-15f9-a668dcdcf77b.htm">MediumOrchid</a></td><td><div class="summary">
+            #BA55D3
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="6a62c569-3cf3-dd89-4102-7ae3e06bba3c.htm">MediumPurple</a></td><td><div class="summary">
+            #9370DB
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b33b2cb8-770e-0b7c-b8da-05874f0ff4f2.htm">MediumSeaGreen</a></td><td><div class="summary">
+            #3CB371
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="23804811-bc64-164d-d7ae-ee89d06b9620.htm">MediumSlateBlue</a></td><td><div class="summary">
+            #7B68EE
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="866e4ae4-4b1b-9dce-4d91-83196c595260.htm">MediumSpringGreen</a></td><td><div class="summary">
+            #00FA9A 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="9860db46-5049-e0ed-dcb6-3605445206ef.htm">MediumTurquoise</a></td><td><div class="summary">
+            #48D1CC
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="51d45d75-a030-a37d-1185-a68be54ebad7.htm">MediumVioletRed</a></td><td><div class="summary">
+            #C71585
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="3cdff186-83ff-b42c-6f66-dd3aa959a141.htm">MidnightBlue</a></td><td><div class="summary">
+            #191970
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="bda31263-685c-1c2d-4217-72aa26e3bc13.htm">MintCream</a></td><td><div class="summary">
+            #F5FFFA
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a573f34b-fef5-3e12-cb1d-6321fa2cad99.htm">MistyRose</a></td><td><div class="summary">
+            #FFE4E1
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="55a0df03-f765-16ac-2f84-36e329de165d.htm">Moccasin</a></td><td><div class="summary">
+            #FFE4B5
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="d1d30bb2-b9f7-b11b-ab68-2c4eca0a34ec.htm">NavajoWhite</a></td><td><div class="summary">
+            #FFDEAD
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="9d4a002f-845a-2a56-27b5-9a3856c4ae6e.htm">Navy</a></td><td><div class="summary">
+            #000080
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="004f8980-ca57-d354-d350-bb8ca0b88cb5.htm">OldLace</a></td><td><div class="summary">
+            #FDF5E6
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="54edae29-3e5f-562f-3794-5110cc70a713.htm">Olive</a></td><td><div class="summary">
+            #808000 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="331e5fb2-02f7-d4ae-d683-43127ee7abfe.htm">OliveDrab</a></td><td><div class="summary">
+            #6B8E23
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="e554de5c-b8cd-66f2-7204-c30f5eae46f2.htm">Orange</a></td><td><div class="summary">
+            #FFA500
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f7c33a44-ac23-1297-561e-f3d52ec1ad71.htm">OrangeRed</a></td><td><div class="summary">
+            #FF4500
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="a9d0a80b-5231-3948-6fe2-28dd4d73d548.htm">Orchid</a></td><td><div class="summary">
+            #DA70D6
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="06f5b8fa-968b-0b79-1c52-65f73ca02842.htm">PaleGoldenrod</a></td><td><div class="summary">
+            #EEE8AA 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="9e0b8bde-a3a5-2820-b743-a137e43a7558.htm">PaleGreen</a></td><td><div class="summary">
+            #98FB98
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="edf90c50-e9b0-277a-9513-874e59644420.htm">PaleTurquoise</a></td><td><div class="summary">
+            #AFEEEE
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="ed041d0c-3b4e-431e-33bf-6e974c1eaef4.htm">PaleVioletRed</a></td><td><div class="summary">
+            #DB7093
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="48b8579f-9e1e-7101-ac81-91eb65b61cbd.htm">PapayaWhip</a></td><td><div class="summary">
+            #FFEFD5 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="9a0204ec-6c5b-599d-33d5-1916947b1e0e.htm">PeachPuff</a></td><td><div class="summary">
+            #FFDAB9
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f16671d2-20f2-155c-7bb6-fa01eb6bb32c.htm">Peru</a></td><td><div class="summary">
+            #CD853F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="110b48ec-8126-5e20-1b15-3d62490df6db.htm">Pink</a></td><td><div class="summary">
+            #FFC0CB
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="1ee06d55-381e-0e56-3d75-445c2aa90672.htm">Plum</a></td><td><div class="summary">
+            #DDA0DD
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4db9ddef-e34b-3392-0f9a-55f6a22f0467.htm">PowderBlue</a></td><td><div class="summary">
+            #B0E0E6
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="c935d3ee-07f6-672e-ff78-ad2cf3f65cd2.htm">Purple</a></td><td><div class="summary">
+            #800080
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /></td><td><a href="2732e757-5a47-fb22-c771-c26f8e442cdb.htm">R</a></td><td><div class="summary">
+            Red
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="1b90f883-1205-3a1c-75a7-afc2a84b4d59.htm">Red</a></td><td><div class="summary">
+            #FF0000
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="7f1ced1f-8497-e0c7-f624-810449089b74.htm">RosyBrown</a></td><td><div class="summary">
+            #BC8F8F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="919a096b-48f2-aed3-4c2a-f29ab4d54eb0.htm">RoyalBlue</a></td><td><div class="summary">
+            #4169E1
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="80e2609b-0e6e-f983-a254-6b7796ad6124.htm">SaddleBrown</a></td><td><div class="summary">
+            #8B4513
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4d19d7a2-ba72-41af-3974-08c727838f19.htm">Salmon</a></td><td><div class="summary">
+            #FA8072
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="cff350e3-7ebe-9a3e-862e-9bda00ce6e40.htm">SandyBrown</a></td><td><div class="summary">
+            #F4A460
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="77aa15f0-76fb-4f4b-8b42-7ddce0ceabf4.htm">SeaGreen</a></td><td><div class="summary">
+            #2E8B57
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="f8c81cc2-b0fb-e5ad-800d-764fcb1733f0.htm">SeaShell</a></td><td><div class="summary">
+            #FFF5EE
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="39f07a9e-4a2c-1da7-4b3a-b54a33aa435b.htm">Sienna</a></td><td><div class="summary">
+            #A0522D
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="2e350e8d-559d-b5f5-5ff8-fbaff3e9fbb5.htm">Silver</a></td><td><div class="summary">
+            #C0C0C0 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="ecc418ff-9806-6f39-14d3-bb2b30d01b1e.htm">SkyBlue</a></td><td><div class="summary">
+            #87CEEB
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="fb622fcb-21f5-601d-c436-0b41d5ac7b30.htm">SlateBlue</a></td><td><div class="summary">
+            #6A5ACD
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="0db98d46-ea28-15d7-6eef-059c1222d66c.htm">SlateGray</a></td><td><div class="summary">
+            #708090
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="4037cd6d-6494-59f9-299a-627a75795292.htm">Snow</a></td><td><div class="summary">
+            #FFFAFA
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="931c4680-6c0a-6278-4a7a-60e75cf5117a.htm">SpringGreen</a></td><td><div class="summary">
+            #00FF7F
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="caf65cfe-3668-0e65-4691-37803315152f.htm">SteelBlue</a></td><td><div class="summary">
+            #4682B4
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="0909cb78-d4de-764d-7b0e-549eec9ddb52.htm">Tan</a></td><td><div class="summary">
+            #D2B48C
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="7c3c73ea-893a-0874-b39e-07bb30993fa9.htm">Teal</a></td><td><div class="summary">
+            #008080
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="330e094a-5280-1d12-bdc6-f1aac19cd7c1.htm">Thistle</a></td><td><div class="summary">
+            #D8BFD8
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="d6a0c254-dbf9-5f95-482c-3042030131ed.htm">Tomato</a></td><td><div class="summary">
+            #FF6347
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="5a19f871-e65a-76d0-1138-5fc104b74177.htm">Turquoise</a></td><td><div class="summary">
+            #40E0D0
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b6329442-909a-6e10-663b-215cb3c2a7f5.htm">Violet</a></td><td><div class="summary">
+            #EE82EE
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="b4db3180-f4e1-c57d-de95-bfe233ac1323.htm">Wheat</a></td><td><div class="summary">
+            #F5DEB3
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="adab6f39-337d-f2a5-88ed-93b06dee14f0.htm">White</a></td><td><div class="summary">
+            #FFFFFF
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="c1e36a90-e65e-f2a0-aaf5-32e0ac1cd3d1.htm">WhiteSmoke</a></td><td><div class="summary">
+            #F5F5F5
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="0cfd9963-8da1-52ee-3a85-7c40dcdd5cb6.htm">Yellow</a></td><td><div class="summary">
+            #FFFF00
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="11d2ed9b-d922-e8bd-950f-861f6312e306.htm">YellowGreen</a></td><td><div class="summary">
+            #9ACD32
+            </div></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

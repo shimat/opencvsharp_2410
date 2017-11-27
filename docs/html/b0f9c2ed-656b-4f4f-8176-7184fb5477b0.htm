@@ -1,0 +1,116 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CascadeClassifier.DetectMultiScale Method (Mat, Int32[], Double[], Double, Int32, HaarDetectionType, Nullable(Size), Nullable(Size), Boolean)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.CascadeClassifier.DetectMultiScale(OpenCvSharp.CPlusPlus.Mat,System.Int32[]@,System.Double[]@,System.Double,System.Int32,OpenCvSharp.HaarDetectionType,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Boolean)" />
+    <meta name="Description" content="Detects objects of different sizes in the input image. The detected objects are returned as a list of rectangles." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="b0f9c2ed-656b-4f4f-8176-7184fb5477b0" />
+    <meta name="guid" content="b0f9c2ed-656b-4f4f-8176-7184fb5477b0" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">CascadeClassifier<span id="LST73B0164C_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_0?cpp=::|nu=.");</script>DetectMultiScale Method (Mat, <span id="LST73B0164C_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_1?cpp=array&lt;");</script>Int32<span id="LST73B0164C_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_2?cpp=&gt;|vb=()|nu=[]");</script><span id="LST73B0164C_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_3?cpp=%");</script>, <span id="LST73B0164C_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_4?cpp=array&lt;");</script>Double<span id="LST73B0164C_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_5?cpp=&gt;|vb=()|nu=[]");</script><span id="LST73B0164C_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_6?cpp=%");</script>, Double, Int32, HaarDetectionType, Nullable<span id="LST73B0164C_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_7?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Size<span id="LST73B0164C_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Nullable<span id="LST73B0164C_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Size<span id="LST73B0164C_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Boolean)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Detects objects of different sizes in the input image. The detected objects are returned as a list of rectangles.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">virtual</span> <span class="identifier">Rect</span>[] <span class="identifier">DetectMultiScale</span>(
+	<span class="identifier">Mat</span> <span class="parameter">image</span>,
+	<span class="keyword">out</span> <span class="identifier">int</span>[] <span class="parameter">rejectLevels</span>,
+	<span class="keyword">out</span> <span class="identifier">double</span>[] <span class="parameter">levelWeights</span>,
+	<span class="identifier">double</span> <span class="parameter">scaleFactor</span> = 1.1,
+	<span class="identifier">int</span> <span class="parameter">minNeighbors</span> = 3,
+	<span class="identifier">HaarDetectionType</span> <span class="parameter">flags</span> = <span class="identifier">HaarDetectionType</span>.Zero,
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">minSize</span> = <span class="keyword">null</span>,
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">maxSize</span> = <span class="keyword">null</span>,
+	<span class="identifier">bool</span> <span class="parameter">outputRejectLevels</span> = <span class="keyword">false</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Overridable</span> <span class="keyword">Function</span> <span class="identifier">DetectMultiScale</span> ( 
+	<span class="parameter">image</span> <span class="keyword">As</span> <span class="identifier">Mat</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">rejectLevels</span> <span class="keyword">As</span> <span class="identifier">Integer</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">levelWeights</span> <span class="keyword">As</span> <span class="identifier">Double</span>(),
+	Optional <span class="parameter">scaleFactor</span> <span class="keyword">As</span> <span class="identifier">Double</span> = 1.1,
+	Optional <span class="parameter">minNeighbors</span> <span class="keyword">As</span> <span class="identifier">Integer</span> = 3,
+	Optional <span class="parameter">flags</span> <span class="keyword">As</span> <span class="identifier">HaarDetectionType</span> = <span class="identifier">HaarDetectionType</span>.Zero,
+	Optional <span class="parameter">minSize</span> <span class="keyword">As</span> <span class="identifier">Nullable</span>(<span class="keyword">Of</span> <span class="identifier">Size</span>) = <span class="keyword">Nothing</span>,
+	Optional <span class="parameter">maxSize</span> <span class="keyword">As</span> <span class="identifier">Nullable</span>(<span class="keyword">Of</span> <span class="identifier">Size</span>) = <span class="keyword">Nothing</span>,
+	Optional <span class="parameter">outputRejectLevels</span> <span class="keyword">As</span> <span class="identifier">Boolean</span> = <span class="keyword">false</span>
+) <span class="keyword">As</span> <span class="identifier">Rect</span>()</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">virtual</span> <span class="keyword">array</span>&lt;<span class="identifier">Rect</span>&gt;^ <span class="identifier">DetectMultiScale</span>(
+	<span class="identifier">Mat</span>^ <span class="parameter">image</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">int</span>&gt;^% <span class="parameter">rejectLevels</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">double</span>&gt;^% <span class="parameter">levelWeights</span>, 
+	<span class="identifier">double</span> <span class="parameter">scaleFactor</span> = 1.1, 
+	<span class="identifier">int</span> <span class="parameter">minNeighbors</span> = 3, 
+	<span class="identifier">HaarDetectionType</span> <span class="parameter">flags</span> = <span class="identifier">HaarDetectionType</span>::Zero, 
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">minSize</span> = <span class="keyword">nullptr</span>, 
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; <span class="parameter">maxSize</span> = <span class="keyword">nullptr</span>, 
+	<span class="identifier">bool</span> <span class="parameter">outputRejectLevels</span> = <span class="keyword">false</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">abstract</span> <span class="identifier">DetectMultiScale</span> : 
+        <span class="parameter">image</span> : <span class="identifier">Mat</span> * 
+        <span class="parameter">rejectLevels</span> : <span class="identifier">int</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">levelWeights</span> : <span class="identifier">float</span>[] <span class="keyword">byref</span> * 
+        ?<span class="parameter">scaleFactor</span> : <span class="identifier">float</span> * 
+        ?<span class="parameter">minNeighbors</span> : <span class="identifier">int</span> * 
+        ?<span class="parameter">flags</span> : <span class="identifier">HaarDetectionType</span> * 
+        ?<span class="parameter">minSize</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; * 
+        ?<span class="parameter">maxSize</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; * 
+        ?<span class="parameter">outputRejectLevels</span> : <span class="identifier">bool</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">scaleFactor</span> = defaultArg <span class="identifier">scaleFactor</span> 1.1
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">minNeighbors</span> = defaultArg <span class="identifier">minNeighbors</span> 3
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">flags</span> = defaultArg <span class="identifier">flags</span> <span class="identifier">HaarDetectionType</span>.Zero
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">minSize</span> = defaultArg <span class="identifier">minSize</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">maxSize</span> = defaultArg <span class="identifier">maxSize</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">outputRejectLevels</span> = defaultArg <span class="identifier">outputRejectLevels</span> <span class="keyword">false</span>
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">Rect</span>[] 
+<span class="keyword">override</span> <span class="identifier">DetectMultiScale</span> : 
+        <span class="parameter">image</span> : <span class="identifier">Mat</span> * 
+        <span class="parameter">rejectLevels</span> : <span class="identifier">int</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">levelWeights</span> : <span class="identifier">float</span>[] <span class="keyword">byref</span> * 
+        ?<span class="parameter">scaleFactor</span> : <span class="identifier">float</span> * 
+        ?<span class="parameter">minNeighbors</span> : <span class="identifier">int</span> * 
+        ?<span class="parameter">flags</span> : <span class="identifier">HaarDetectionType</span> * 
+        ?<span class="parameter">minSize</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; * 
+        ?<span class="parameter">maxSize</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Size</span>&gt; * 
+        ?<span class="parameter">outputRejectLevels</span> : <span class="identifier">bool</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">scaleFactor</span> = defaultArg <span class="identifier">scaleFactor</span> 1.1
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">minNeighbors</span> = defaultArg <span class="identifier">minNeighbors</span> 3
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">flags</span> = defaultArg <span class="identifier">flags</span> <span class="identifier">HaarDetectionType</span>.Zero
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">minSize</span> = defaultArg <span class="identifier">minSize</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">maxSize</span> = defaultArg <span class="identifier">maxSize</span> <span class="keyword">null</span>
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">outputRejectLevels</span> = defaultArg <span class="identifier">outputRejectLevels</span> <span class="keyword">false</span>
+*)
+<span class="keyword">-&gt;</span> <span class="identifier">Rect</span>[] </pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">image</span></dt><dd>Type: <a href="1a409a9c-a11e-c90d-aa88-19ba6252227e.htm">OpenCvSharp.CPlusPlus<span id="LST73B0164C_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mat</a><br />Matrix of the type CV_8U containing an image where objects are detected.</dd><dt><span class="parameter">rejectLevels</span></dt><dd>Type: <span id="LST73B0164C_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_12?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST73B0164C_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><span id="LST73B0164C_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_14?cpp=&gt;|vb=()|nu=[]");</script><span id="LST73B0164C_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_15?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="rejectLevels"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.CascadeClassifier.DetectMultiScale(OpenCvSharp.CPlusPlus.Mat,System.Int32[]@,System.Double[]@,System.Double,System.Int32,OpenCvSharp.HaarDetectionType,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Boolean)"]</p></dd><dt><span class="parameter">levelWeights</span></dt><dd>Type: <span id="LST73B0164C_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_16?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST73B0164C_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><span id="LST73B0164C_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_18?cpp=&gt;|vb=()|nu=[]");</script><span id="LST73B0164C_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_19?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="levelWeights"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.CascadeClassifier.DetectMultiScale(OpenCvSharp.CPlusPlus.Mat,System.Int32[]@,System.Double[]@,System.Double,System.Int32,OpenCvSharp.HaarDetectionType,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Boolean)"]</p></dd><dt><span class="parameter">scaleFactor</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST73B0164C_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />Parameter specifying how much the image size is reduced at each image scale.</dd><dt><span class="parameter">minNeighbors</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST73B0164C_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_21?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Parameter specifying how many neighbors each candidate rectangle should have to retain it.</dd><dt><span class="parameter">flags</span> (Optional)</dt><dd>Type: <a href="68904abf-1780-d8d3-3817-9421075f4c7e.htm">OpenCvSharp<span id="LST73B0164C_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>HaarDetectionType</a><br />Parameter with the same meaning for an old cascade as in the function cvHaarDetectObjects. 
+            It is not used for a new cascade.</dd><dt><span class="parameter">minSize</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/b3h38hb0" target="_blank">System<span id="LST73B0164C_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_23?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Nullable</a><span id="LST73B0164C_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_24?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="7b45af0c-0d0e-9c56-df45-78de4b873140.htm">Size</a><span id="LST73B0164C_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_25?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />Minimum possible object size. Objects smaller than that are ignored.</dd><dt><span class="parameter">maxSize</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/b3h38hb0" target="_blank">System<span id="LST73B0164C_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_26?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Nullable</a><span id="LST73B0164C_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_27?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="7b45af0c-0d0e-9c56-df45-78de4b873140.htm">Size</a><span id="LST73B0164C_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_28?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />Maximum possible object size. Objects larger than that are ignored.</dd><dt><span class="parameter">outputRejectLevels</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span id="LST73B0164C_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_29?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Boolean</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="outputRejectLevels"/&gt; documentation for "M:OpenCvSharp.CPlusPlus.CascadeClassifier.DetectMultiScale(OpenCvSharp.CPlusPlus.Mat,System.Int32[]@,System.Double[]@,System.Double,System.Int32,OpenCvSharp.HaarDetectionType,System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Nullable{OpenCvSharp.CPlusPlus.Size},System.Boolean)"]</p></dd></dl><h4 class="subHeading">Return Value</h4>Type: <span id="LST73B0164C_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_30?cpp=array&lt;");</script><a href="8bba2112-a357-e837-7a39-4818222c6b03.htm">Rect</a><span id="LST73B0164C_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73B0164C_31?cpp=&gt;|vb=()|nu=[]");</script><br />Vector of rectangles where each rectangle contains the detected object.<div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="469f9031-d778-0be4-7ec5-d309d4793e14.htm">CascadeClassifier Class</a></div><div class="seeAlsoStyle"><a href="81585bd9-9215-794e-c753-93bc5e93cf85.htm">DetectMultiScale Overload</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

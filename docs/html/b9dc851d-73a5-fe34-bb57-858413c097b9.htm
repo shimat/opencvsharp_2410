@@ -1,0 +1,120 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv.StereoRectify Method (CvMat, CvMat, CvMat, CvMat, CvSize, CvMat, CvMat, CvMat, CvMat, CvMat, CvMat, CvMat, StereoRectificationFlag, Double, CvSize, CvRect, CvRect)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.Cv.StereoRectify(OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvSize,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.StereoRectificationFlag,System.Double,OpenCvSharp.CvSize,OpenCvSharp.CvRect@,OpenCvSharp.CvRect@)" />
+    <meta name="Description" content="Computes rectification transform for stereo camera" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="b9dc851d-73a5-fe34-bb57-858413c097b9" />
+    <meta name="guid" content="b9dc851d-73a5-fe34-bb57-858413c097b9" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv<span id="LSTFAAFFF7_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_0?cpp=::|nu=.");</script>StereoRectify Method (CvMat, CvMat, CvMat, CvMat, CvSize, CvMat, CvMat, CvMat, CvMat, CvMat, CvMat, CvMat, StereoRectificationFlag, Double, CvSize, CvRect<span id="LSTFAAFFF7_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_1?cpp=%");</script>, CvRect<span id="LSTFAAFFF7_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_2?cpp=%");</script>)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Computes rectification transform for stereo camera
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">StereoRectify</span>(
+	<span class="identifier">CvMat</span> <span class="parameter">cameraMatrix1</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">cameraMatrix2</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">distCoeffs1</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">distCoeffs2</span>,
+	<span class="identifier">CvSize</span> <span class="parameter">imageSize</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">R</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">T</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">R1</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">R2</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">P1</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">P2</span>,
+	<span class="identifier">CvMat</span> <span class="parameter">Q</span>,
+	<span class="identifier">StereoRectificationFlag</span> <span class="parameter">flags</span>,
+	<span class="identifier">double</span> <span class="parameter">alpha</span>,
+	<span class="identifier">CvSize</span> <span class="parameter">newImageSize</span>,
+	<span class="keyword">out</span> <span class="identifier">CvRect</span> <span class="parameter">validPixROI1</span>,
+	<span class="keyword">out</span> <span class="identifier">CvRect</span> <span class="parameter">validPixROI2</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Sub</span> <span class="identifier">StereoRectify</span> ( 
+	<span class="parameter">cameraMatrix1</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">cameraMatrix2</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">distCoeffs1</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">distCoeffs2</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">imageSize</span> <span class="keyword">As</span> <span class="identifier">CvSize</span>,
+	<span class="parameter">R</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">T</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">R1</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">R2</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">P1</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">P2</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">Q</span> <span class="keyword">As</span> <span class="identifier">CvMat</span>,
+	<span class="parameter">flags</span> <span class="keyword">As</span> <span class="identifier">StereoRectificationFlag</span>,
+	<span class="parameter">alpha</span> <span class="keyword">As</span> <span class="identifier">Double</span>,
+	<span class="parameter">newImageSize</span> <span class="keyword">As</span> <span class="identifier">CvSize</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">validPixROI1</span> <span class="keyword">As</span> <span class="identifier">CvRect</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">validPixROI2</span> <span class="keyword">As</span> <span class="identifier">CvRect</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">StereoRectify</span>(
+	<span class="identifier">CvMat</span>^ <span class="parameter">cameraMatrix1</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">cameraMatrix2</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">distCoeffs1</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">distCoeffs2</span>, 
+	<span class="identifier">CvSize</span> <span class="parameter">imageSize</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">R</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">T</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">R1</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">R2</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">P1</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">P2</span>, 
+	<span class="identifier">CvMat</span>^ <span class="parameter">Q</span>, 
+	<span class="identifier">StereoRectificationFlag</span> <span class="parameter">flags</span>, 
+	<span class="identifier">double</span> <span class="parameter">alpha</span>, 
+	<span class="identifier">CvSize</span> <span class="parameter">newImageSize</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="identifier">CvRect</span>% <span class="parameter">validPixROI1</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="identifier">CvRect</span>% <span class="parameter">validPixROI2</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">StereoRectify</span> : 
+        <span class="parameter">cameraMatrix1</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">cameraMatrix2</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">distCoeffs1</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">distCoeffs2</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">imageSize</span> : <span class="identifier">CvSize</span> * 
+        <span class="parameter">R</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">T</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">R1</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">R2</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">P1</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">P2</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">Q</span> : <span class="identifier">CvMat</span> * 
+        <span class="parameter">flags</span> : <span class="identifier">StereoRectificationFlag</span> * 
+        <span class="parameter">alpha</span> : <span class="identifier">float</span> * 
+        <span class="parameter">newImageSize</span> : <span class="identifier">CvSize</span> * 
+        <span class="parameter">validPixROI1</span> : <span class="identifier">CvRect</span> <span class="keyword">byref</span> * 
+        <span class="parameter">validPixROI2</span> : <span class="identifier">CvRect</span> <span class="keyword">byref</span> <span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">cameraMatrix1</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The camera matrix [fxk 0 cxk; 0 fyk cyk; 0 0 1]. </dd><dt><span class="parameter">cameraMatrix2</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The camera matrix [fxk 0 cxk; 0 fyk cyk; 0 0 1]. </dd><dt><span class="parameter">distCoeffs1</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The vector of distortion coefficients for camera1, 4x1, 1x4, 5x1 or 1x5. </dd><dt><span class="parameter">distCoeffs2</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The vector of distortion coefficients for camera2, 4x1, 1x4, 5x1 or 1x5. </dd><dt><span class="parameter">imageSize</span></dt><dd>Type: <a href="b4be9b6c-8de4-2b62-e0b0-82152aeadccd.htm">OpenCvSharp<span id="LSTFAAFFF7_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvSize</a><br />Size of the image used for stereo calibration. </dd><dt><span class="parameter">R</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The rotation matrix between the 1st and the 2nd cameras' coordinate systems </dd><dt><span class="parameter">T</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The translation vector between the cameras' coordinate systems. </dd><dt><span class="parameter">R1</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />3x3 Rectification transforms (rotation matrices) for the first and the second cameras, respectively </dd><dt><span class="parameter">R2</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />3x3 Rectification transforms (rotation matrices) for the first and the second cameras, respectively </dd><dt><span class="parameter">P1</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />3x4 Projection matrices in the new (rectified) coordinate systems </dd><dt><span class="parameter">P2</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />3x4 Projection matrices in the new (rectified) coordinate systems </dd><dt><span class="parameter">Q</span></dt><dd>Type: <a href="dc93845b-e7f3-7532-5e03-86e8ad079ea2.htm">OpenCvSharp<span id="LSTFAAFFF7_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_14?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvMat</a><br />The optional output disparity-to-depth mapping matrix, 4x4</dd><dt><span class="parameter">flags</span></dt><dd>Type: <a href="be1aade1-1ff9-8107-de59-15e684d2df54.htm">OpenCvSharp<span id="LSTFAAFFF7_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_15?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>StereoRectificationFlag</a><br />The operation flags</dd><dt><span class="parameter">alpha</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTFAAFFF7_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_16?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="alpha"/&gt; documentation for "M:OpenCvSharp.Cv.StereoRectify(OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvSize,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.StereoRectificationFlag,System.Double,OpenCvSharp.CvSize,OpenCvSharp.CvRect@,OpenCvSharp.CvRect@)"]</p></dd><dt><span class="parameter">newImageSize</span></dt><dd>Type: <a href="b4be9b6c-8de4-2b62-e0b0-82152aeadccd.htm">OpenCvSharp<span id="LSTFAAFFF7_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvSize</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="newImageSize"/&gt; documentation for "M:OpenCvSharp.Cv.StereoRectify(OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvSize,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.StereoRectificationFlag,System.Double,OpenCvSharp.CvSize,OpenCvSharp.CvRect@,OpenCvSharp.CvRect@)"]</p></dd><dt><span class="parameter">validPixROI1</span></dt><dd>Type: <a href="9da60e49-75c2-cffd-66c8-d386124c0088.htm">OpenCvSharp<span id="LSTFAAFFF7_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_18?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvRect</a><span id="LSTFAAFFF7_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_19?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="validPixROI1"/&gt; documentation for "M:OpenCvSharp.Cv.StereoRectify(OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvSize,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.StereoRectificationFlag,System.Double,OpenCvSharp.CvSize,OpenCvSharp.CvRect@,OpenCvSharp.CvRect@)"]</p></dd><dt><span class="parameter">validPixROI2</span></dt><dd>Type: <a href="9da60e49-75c2-cffd-66c8-d386124c0088.htm">OpenCvSharp<span id="LSTFAAFFF7_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvRect</a><span id="LSTFAAFFF7_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFAAFFF7_21?cpp=%");</script><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="validPixROI2"/&gt; documentation for "M:OpenCvSharp.Cv.StereoRectify(OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvSize,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.CvMat,OpenCvSharp.StereoRectificationFlag,System.Double,OpenCvSharp.CvSize,OpenCvSharp.CvRect@,OpenCvSharp.CvRect@)"]</p></dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="8b8e6978-d4b3-8679-47d1-ddd2cb8d9fab.htm">Cv Class</a></div><div class="seeAlsoStyle"><a href="fd0ae3e5-2232-8126-f87b-93dbf6d25d17.htm">StereoRectify Overload</a></div><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

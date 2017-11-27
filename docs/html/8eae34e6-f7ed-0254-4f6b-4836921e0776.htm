@@ -1,0 +1,72 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Stream Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Stream class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:OpenCvSharp.CPlusPlus.Gpu.Stream" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus.Gpu" />
+    <meta name="file" content="8eae34e6-f7ed-0254-4f6b-4836921e0776" />
+    <meta name="guid" content="8eae34e6-f7ed-0254-4f6b-4836921e0776" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Stream Methods</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <p>The <a href="5aad7056-48f3-4b2f-9c79-8445f9460c9e.htm">Stream</a> type exposes the following members.</p><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Methods</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><table class="members" id="methodList"><tr><th class="ps_iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9d29d96b-6d37-c103-0372-50572cae47b4.htm">Dispose<span id="LST2CC97D6_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2CC97D6_0?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
+            Releases the resources
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ac25b8ce-3dda-b8ca-6b9f-423d0c7511e9.htm">EnqueueConvert</a></td><td><div class="summary">
+            converts matrix type, ex from float to uchar depending on type
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="07e76c65-aec2-d45a-7898-a9fa733ed847.htm">EnqueueCopy</a></td><td><div class="summary">
+            Copy asynchronously
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="746b8a5b-341a-9706-5e52-c65d7f77c087.htm">EnqueueDownload(GpuMat, CudaMem)</a></td><td><div class="summary">
+            Downloads asynchronously.
+            Warning! cv::Mat must point to page locked memory (i.e. to CudaMem data or to its subMat)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6c7c0d70-3b2e-bbba-684b-d6e9f680cfd2.htm">EnqueueDownload(GpuMat, Mat)</a></td><td><div class="summary">
+            Downloads asynchronously.
+            Warning! cv::Mat must point to page locked memory (i.e. to CudaMem data or to its subMat)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c07e3a65-dd03-030c-4bbd-bacab009607c.htm">EnqueueHostCallback</a></td><td><div class="summary">
+            Adds a callback to be called on the host after all currently enqueued items 
+            in the stream have completed
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="617bc546-a217-2f7b-f257-765078143693.htm">EnqueueMemSet(GpuMat, Scalar)</a></td><td><div class="summary">
+            Memory set asynchronously
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c5d4e141-f983-7adc-ceb1-6ec6b535e752.htm">EnqueueMemSet(GpuMat, Scalar, GpuMat)</a></td><td><div class="summary">
+            Memory set asynchronously
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2925b2fa-b534-69d0-e392-b321368bc396.htm">EnqueueUpload(CudaMem, GpuMat)</a></td><td><div class="summary">
+            Uploads asynchronously.
+            Warning! cv::Mat must point to page locked memory (i.e. to CudaMem data or to its ROI)
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ab536324-aad1-6040-3adb-6ce12123988e.htm">EnqueueUpload(Mat, GpuMat)</a></td><td><div class="summary">
+            Uploads asynchronously.
+            Warning! cv::Mat must point to page locked memory (i.e. to CudaMem data or to its ROI)
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="50cafda9-b90b-60f8-732c-708f3fd0276b.htm">QueryIfComplete</a></td><td><div class="summary" /></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="7e9e8eea-2803-7160-9379-a547cd5d2af3.htm">Release</a></td><td><div class="summary">
+            Clean up any resources being used.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="111a6067-f00e-4980-5804-0e32a5d68ffe.htm">ThrowIfDisposed</a></td><td><div class="summary">
+            If this object is disposed, then ObjectDisposedException is thrown.
+            </div> (Inherited from <a href="1b7f7d6d-4e7e-fc79-942f-1b600b9d5a35.htm">DisposableObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="bf76c2b0-85f3-483e-9ee6-3c0bddf8b0cf.htm">WaitForCompletion</a></td><td><div class="summary" /></td></tr></table><a href="#mainBody">Top</a><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="5aad7056-48f3-4b2f-9c79-8445f9460c9e.htm">Stream Class</a></div><div class="seeAlsoStyle"><a href="95c7ddb5-e97b-e356-3c74-ca0baa58e4f7.htm">OpenCvSharp.CPlusPlus.Gpu Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv.CalcOpticalFlowPyrLK Method (CvArr, CvArr, CvArr, CvArr, CvPoint2D32f[], CvPoint2D32f[], CvSize, Int32, SByte[], Single[], CvTermCriteria, LKFlowFlag)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.Cv.CalcOpticalFlowPyrLK(OpenCvSharp.CvArr,OpenCvSharp.CvArr,OpenCvSharp.CvArr,OpenCvSharp.CvArr,OpenCvSharp.CvPoint2D32f[],OpenCvSharp.CvPoint2D32f[]@,OpenCvSharp.CvSize,System.Int32,System.SByte[]@,System.Single[]@,OpenCvSharp.CvTermCriteria,OpenCvSharp.LKFlowFlag)" />
+    <meta name="Description" content="Calculates optical flow for a sparse feature set using iterative Lucas-Kanade method in pyramids" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="89f82e73-bd84-1c72-2e7c-c5d956890588" />
+    <meta name="guid" content="89f82e73-bd84-1c72-2e7c-c5d956890588" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv<span id="LST44255B85_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_0?cpp=::|nu=.");</script>CalcOpticalFlowPyrLK Method (CvArr, CvArr, CvArr, CvArr, <span id="LST44255B85_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_1?cpp=array&lt;");</script>CvPoint2D32f<span id="LST44255B85_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_2?cpp=&gt;|vb=()|nu=[]");</script>, <span id="LST44255B85_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_3?cpp=array&lt;");</script>CvPoint2D32f<span id="LST44255B85_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_4?cpp=&gt;|vb=()|nu=[]");</script><span id="LST44255B85_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_5?cpp=%");</script>, CvSize, Int32, <span id="LST44255B85_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_6?cpp=array&lt;");</script>SByte<span id="LST44255B85_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_7?cpp=&gt;|vb=()|nu=[]");</script><span id="LST44255B85_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_8?cpp=%");</script>, <span id="LST44255B85_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_9?cpp=array&lt;");</script>Single<span id="LST44255B85_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_10?cpp=&gt;|vb=()|nu=[]");</script><span id="LST44255B85_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_11?cpp=%");</script>, CvTermCriteria, LKFlowFlag)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Calculates optical flow for a sparse feature set using iterative Lucas-Kanade method in pyramids
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">CalcOpticalFlowPyrLK</span>(
+	<span class="identifier">CvArr</span> <span class="parameter">prev</span>,
+	<span class="identifier">CvArr</span> <span class="parameter">curr</span>,
+	<span class="identifier">CvArr</span> <span class="parameter">prevPyr</span>,
+	<span class="identifier">CvArr</span> <span class="parameter">currPyr</span>,
+	<span class="identifier">CvPoint2D32f</span>[] <span class="parameter">prevFeatures</span>,
+	<span class="keyword">out</span> <span class="identifier">CvPoint2D32f</span>[] <span class="parameter">currFeatures</span>,
+	<span class="identifier">CvSize</span> <span class="parameter">winSize</span>,
+	<span class="identifier">int</span> <span class="parameter">level</span>,
+	<span class="keyword">out</span> <span class="identifier">sbyte</span>[] <span class="parameter">status</span>,
+	<span class="keyword">out</span> <span class="identifier">float</span>[] <span class="parameter">trackError</span>,
+	<span class="identifier">CvTermCriteria</span> <span class="parameter">criteria</span>,
+	<span class="identifier">LKFlowFlag</span> <span class="parameter">flags</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Sub</span> <span class="identifier">CalcOpticalFlowPyrLK</span> ( 
+	<span class="parameter">prev</span> <span class="keyword">As</span> <span class="identifier">CvArr</span>,
+	<span class="parameter">curr</span> <span class="keyword">As</span> <span class="identifier">CvArr</span>,
+	<span class="parameter">prevPyr</span> <span class="keyword">As</span> <span class="identifier">CvArr</span>,
+	<span class="parameter">currPyr</span> <span class="keyword">As</span> <span class="identifier">CvArr</span>,
+	<span class="parameter">prevFeatures</span> <span class="keyword">As</span> <span class="identifier">CvPoint2D32f</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">currFeatures</span> <span class="keyword">As</span> <span class="identifier">CvPoint2D32f</span>(),
+	<span class="parameter">winSize</span> <span class="keyword">As</span> <span class="identifier">CvSize</span>,
+	<span class="parameter">level</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">status</span> <span class="keyword">As</span> <span class="identifier">SByte</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">trackError</span> <span class="keyword">As</span> <span class="identifier">Single</span>(),
+	<span class="parameter">criteria</span> <span class="keyword">As</span> <span class="identifier">CvTermCriteria</span>,
+	<span class="parameter">flags</span> <span class="keyword">As</span> <span class="identifier">LKFlowFlag</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">CalcOpticalFlowPyrLK</span>(
+	<span class="identifier">CvArr</span>^ <span class="parameter">prev</span>, 
+	<span class="identifier">CvArr</span>^ <span class="parameter">curr</span>, 
+	<span class="identifier">CvArr</span>^ <span class="parameter">prevPyr</span>, 
+	<span class="identifier">CvArr</span>^ <span class="parameter">currPyr</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">CvPoint2D32f</span>&gt;^ <span class="parameter">prevFeatures</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">CvPoint2D32f</span>&gt;^% <span class="parameter">currFeatures</span>, 
+	<span class="identifier">CvSize</span> <span class="parameter">winSize</span>, 
+	<span class="identifier">int</span> <span class="parameter">level</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">signed char</span>&gt;^% <span class="parameter">status</span>, 
+	[<span class="identifier">OutAttribute</span>] <span class="keyword">array</span>&lt;<span class="identifier">float</span>&gt;^% <span class="parameter">trackError</span>, 
+	<span class="identifier">CvTermCriteria</span> <span class="parameter">criteria</span>, 
+	<span class="identifier">LKFlowFlag</span> <span class="parameter">flags</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">CalcOpticalFlowPyrLK</span> : 
+        <span class="parameter">prev</span> : <span class="identifier">CvArr</span> * 
+        <span class="parameter">curr</span> : <span class="identifier">CvArr</span> * 
+        <span class="parameter">prevPyr</span> : <span class="identifier">CvArr</span> * 
+        <span class="parameter">currPyr</span> : <span class="identifier">CvArr</span> * 
+        <span class="parameter">prevFeatures</span> : <span class="identifier">CvPoint2D32f</span>[] * 
+        <span class="parameter">currFeatures</span> : <span class="identifier">CvPoint2D32f</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">winSize</span> : <span class="identifier">CvSize</span> * 
+        <span class="parameter">level</span> : <span class="identifier">int</span> * 
+        <span class="parameter">status</span> : <span class="identifier">sbyte</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">trackError</span> : <span class="identifier">float32</span>[] <span class="keyword">byref</span> * 
+        <span class="parameter">criteria</span> : <span class="identifier">CvTermCriteria</span> * 
+        <span class="parameter">flags</span> : <span class="identifier">LKFlowFlag</span> <span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">prev</span></dt><dd>Type: <a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">OpenCvSharp<span id="LST44255B85_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvArr</a><br />First frame, at time t. </dd><dt><span class="parameter">curr</span></dt><dd>Type: <a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">OpenCvSharp<span id="LST44255B85_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvArr</a><br />Second frame, at time t + dt . </dd><dt><span class="parameter">prevPyr</span></dt><dd>Type: <a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">OpenCvSharp<span id="LST44255B85_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_14?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvArr</a><br />Buffer for the pyramid for the first frame. If the pointer is not null , the buffer must have a sufficient size to store the pyramid from level 1 to level #level ; the total size of (image_width+8)*image_height/3 bytes is sufficient. </dd><dt><span class="parameter">currPyr</span></dt><dd>Type: <a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">OpenCvSharp<span id="LST44255B85_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_15?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvArr</a><br />Similar to prev_pyr, used for the second frame. </dd><dt><span class="parameter">prevFeatures</span></dt><dd>Type: <span id="LST44255B85_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_16?cpp=array&lt;");</script><a href="6289216f-f798-1910-9418-92e29cce6a38.htm">OpenCvSharp<span id="LST44255B85_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvPoint2D32f</a><span id="LST44255B85_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_18?cpp=&gt;|vb=()|nu=[]");</script><br />Array of points for which the flow needs to be found. </dd><dt><span class="parameter">currFeatures</span></dt><dd>Type: <span id="LST44255B85_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_19?cpp=array&lt;");</script><a href="6289216f-f798-1910-9418-92e29cce6a38.htm">OpenCvSharp<span id="LST44255B85_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvPoint2D32f</a><span id="LST44255B85_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_21?cpp=&gt;|vb=()|nu=[]");</script><span id="LST44255B85_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_22?cpp=%");</script><br />Array of 2D points containing calculated new positions of input features in the second image. </dd><dt><span class="parameter">winSize</span></dt><dd>Type: <a href="b4be9b6c-8de4-2b62-e0b0-82152aeadccd.htm">OpenCvSharp<span id="LST44255B85_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_23?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvSize</a><br />Size of the search window of each pyramid level. </dd><dt><span class="parameter">level</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST44255B85_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_24?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Maximal pyramid level number. If 0 , pyramids are not used (single level), if 1 , two levels are used, etc. </dd><dt><span class="parameter">status</span></dt><dd>Type: <span id="LST44255B85_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_25?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/f71b253d" target="_blank">System<span id="LST44255B85_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_26?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>SByte</a><span id="LST44255B85_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_27?cpp=&gt;|vb=()|nu=[]");</script><span id="LST44255B85_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_28?cpp=%");</script><br />Array. Every element of the array is set to 1 if the flow for the corresponding feature has been found, 0 otherwise. </dd><dt><span class="parameter">trackError</span></dt><dd>Type: <span id="LST44255B85_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_29?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/3www918f" target="_blank">System<span id="LST44255B85_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_30?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Single</a><span id="LST44255B85_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_31?cpp=&gt;|vb=()|nu=[]");</script><span id="LST44255B85_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_32?cpp=%");</script><br />Array of double numbers containing difference between patches around the original and moved points. Optional parameter; can be NULL . </dd><dt><span class="parameter">criteria</span></dt><dd>Type: <a href="4705d956-cf01-5e8c-599c-f7d2c6e23206.htm">OpenCvSharp<span id="LST44255B85_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_33?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvTermCriteria</a><br />Specifies when the iteration process of finding the flow for each point on each pyramid level should be stopped. </dd><dt><span class="parameter">flags</span></dt><dd>Type: <a href="bd78d2d0-189a-8412-709b-16e331bc1ae5.htm">OpenCvSharp<span id="LST44255B85_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST44255B85_34?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>LKFlowFlag</a><br />Miscellaneous flags</dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="8b8e6978-d4b3-8679-47d1-ddd2cb8d9fab.htm">Cv Class</a></div><div class="seeAlsoStyle"><a href="a5891968-5a8d-f766-085b-c31bfd808198.htm">CalcOpticalFlowPyrLK Overload</a></div><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

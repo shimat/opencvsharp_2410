@@ -1,0 +1,91 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv2Gpu.Filter2D Method </title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="Filter2D method" />
+    <meta name="System.Keywords" content="Cv2Gpu.Filter2D method" />
+    <meta name="Microsoft.Help.F1" content="OpenCvSharp.CPlusPlus.Gpu.Cv2Gpu.Filter2D" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.Gpu.Cv2Gpu.Filter2D(OpenCvSharp.CPlusPlus.Gpu.GpuMat,OpenCvSharp.CPlusPlus.Gpu.GpuMat,System.Int32,OpenCvSharp.CPlusPlus.Mat,System.Nullable{OpenCvSharp.CPlusPlus.Point},OpenCvSharp.BorderType,OpenCvSharp.CPlusPlus.Gpu.Stream)" />
+    <meta name="Description" content="Applies the non-separable 2D linear filter to an image." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus.Gpu" />
+    <meta name="file" content="ea6341c0-1034-5492-b03b-28faf9e398d6" />
+    <meta name="guid" content="ea6341c0-1034-5492-b03b-28faf9e398d6" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv2Gpu<span id="LST55A8E841_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_0?cpp=::|nu=.");</script>Filter2D Method </td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Applies the non-separable 2D linear filter to an image.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="95c7ddb5-e97b-e356-3c74-ca0baa58e4f7.htm">OpenCvSharp.CPlusPlus.Gpu</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">Filter2D</span>(
+	<span class="identifier">GpuMat</span> <span class="parameter">src</span>,
+	<span class="identifier">GpuMat</span> <span class="parameter">dst</span>,
+	<span class="identifier">int</span> <span class="parameter">ddepth</span>,
+	<span class="identifier">Mat</span> <span class="parameter">kernel</span>,
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Point</span>&gt; <span class="parameter">anchor</span>,
+	<span class="identifier">BorderType</span> <span class="parameter">borderType</span> = <span class="identifier">BorderType</span>.Reflect101,
+	<span class="identifier">Stream</span> <span class="parameter">stream</span> = <span class="keyword">null</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Sub</span> <span class="identifier">Filter2D</span> ( 
+	<span class="parameter">src</span> <span class="keyword">As</span> <span class="identifier">GpuMat</span>,
+	<span class="parameter">dst</span> <span class="keyword">As</span> <span class="identifier">GpuMat</span>,
+	<span class="parameter">ddepth</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	<span class="parameter">kernel</span> <span class="keyword">As</span> <span class="identifier">Mat</span>,
+	<span class="parameter">anchor</span> <span class="keyword">As</span> <span class="identifier">Nullable</span>(<span class="keyword">Of</span> <span class="identifier">Point</span>),
+	Optional <span class="parameter">borderType</span> <span class="keyword">As</span> <span class="identifier">BorderType</span> = <span class="identifier">BorderType</span>.Reflect101,
+	Optional <span class="parameter">stream</span> <span class="keyword">As</span> <span class="identifier">Stream</span> = <span class="keyword">Nothing</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">Filter2D</span>(
+	<span class="identifier">GpuMat</span>^ <span class="parameter">src</span>, 
+	<span class="identifier">GpuMat</span>^ <span class="parameter">dst</span>, 
+	<span class="identifier">int</span> <span class="parameter">ddepth</span>, 
+	<span class="identifier">Mat</span>^ <span class="parameter">kernel</span>, 
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Point</span>&gt; <span class="parameter">anchor</span>, 
+	<span class="identifier">BorderType</span> <span class="parameter">borderType</span> = <span class="identifier">BorderType</span>::Reflect101, 
+	<span class="identifier">Stream</span>^ <span class="parameter">stream</span> = <span class="keyword">nullptr</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">Filter2D</span> : 
+        <span class="parameter">src</span> : <span class="identifier">GpuMat</span> * 
+        <span class="parameter">dst</span> : <span class="identifier">GpuMat</span> * 
+        <span class="parameter">ddepth</span> : <span class="identifier">int</span> * 
+        <span class="parameter">kernel</span> : <span class="identifier">Mat</span> * 
+        <span class="parameter">anchor</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Point</span>&gt; * 
+        ?<span class="parameter">borderType</span> : <span class="identifier">BorderType</span> * 
+        ?<span class="parameter">stream</span> : <span class="identifier">Stream</span> 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">borderType</span> = defaultArg <span class="identifier">borderType</span> <span class="identifier">BorderType</span>.Reflect101
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">stream</span> = defaultArg <span class="identifier">stream</span> <span class="keyword">null</span>
+*)
+<span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">src</span></dt><dd>Type: <a href="903c5d64-02a4-76d8-01ed-c9c5f131fb59.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST55A8E841_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GpuMat</a><br />Source image. Supports CV_8U, CV_16U and CV_32F one and four channel image.</dd><dt><span class="parameter">dst</span></dt><dd>Type: <a href="903c5d64-02a4-76d8-01ed-c9c5f131fb59.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST55A8E841_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GpuMat</a><br />Destination image. The size and the number of channels is the same as src.</dd><dt><span class="parameter">ddepth</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST55A8E841_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Desired depth of the destination image. If it is negative, it is the same as src.depth(). 
+            It supports only the same depth as the source image depth.</dd><dt><span class="parameter">kernel</span></dt><dd>Type: <a href="1a409a9c-a11e-c90d-aa88-19ba6252227e.htm">OpenCvSharp.CPlusPlus<span id="LST55A8E841_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mat</a><br />2D array of filter coefficients.</dd><dt><span class="parameter">anchor</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/b3h38hb0" target="_blank">System<span id="LST55A8E841_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Nullable</a><span id="LST55A8E841_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="3d0fd87e-b391-e91b-01f1-775be1b9501f.htm">Point</a><span id="LST55A8E841_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />Anchor of the kernel that indicates the relative position of 
+            a filtered point within the kernel. The anchor resides within the kernel. 
+            The special default value (-1,-1) means that the anchor is at the kernel center.</dd><dt><span class="parameter">borderType</span> (Optional)</dt><dd>Type: <a href="91db7527-217f-c711-2da9-82409141b926.htm">OpenCvSharp<span id="LST55A8E841_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BorderType</a><br />Pixel extrapolation method.</dd><dt><span class="parameter">stream</span> (Optional)</dt><dd>Type: <a href="5aad7056-48f3-4b2f-9c79-8445f9460c9e.htm">OpenCvSharp.CPlusPlus.Gpu<span id="LST55A8E841_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST55A8E841_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Stream</a><br />Stream for the asynchronous version.</dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="935c5842-4884-9179-f981-03cc430f270d.htm">Cv2Gpu Class</a></div><div class="seeAlsoStyle"><a href="95c7ddb5-e97b-e356-3c74-ca0baa58e4f7.htm">OpenCvSharp.CPlusPlus.Gpu Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

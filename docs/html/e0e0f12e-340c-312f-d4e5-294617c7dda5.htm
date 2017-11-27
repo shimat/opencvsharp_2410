@@ -1,0 +1,88 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv.KMeans2 Method (Array, MatrixType, Int32, Int32[], CvTermCriteria, Int32, CvRNG, KMeansFlag, CvArr)</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)" />
+    <meta name="Description" content="Splits set of vectors by given number of clusters" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp" />
+    <meta name="file" content="e0e0f12e-340c-312f-d4e5-294617c7dda5" />
+    <meta name="guid" content="e0e0f12e-340c-312f-d4e5-294617c7dda5" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv<span id="LST63159D8B_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_0?cpp=::|nu=.");</script>KMeans2 Method (Array, MatrixType, Int32, <span id="LST63159D8B_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_1?cpp=array&lt;");</script>Int32<span id="LST63159D8B_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_2?cpp=&gt;|vb=()|nu=[]");</script>, CvTermCriteria, Int32, CvRNG, KMeansFlag, CvArr)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Splits set of vectors by given number of clusters
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp (in OpenCvSharp.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">int</span> <span class="identifier">KMeans2</span>(
+	<span class="identifier">Array</span> <span class="parameter">samples</span>,
+	<span class="identifier">MatrixType</span> <span class="parameter">samplesType</span>,
+	<span class="identifier">int</span> <span class="parameter">clusterCount</span>,
+	<span class="identifier">int</span>[] <span class="parameter">labels</span>,
+	<span class="identifier">CvTermCriteria</span> <span class="parameter">termcrit</span>,
+	<span class="identifier">int</span> <span class="parameter">attemps</span>,
+	<span class="identifier">CvRNG</span> <span class="parameter">rng</span>,
+	<span class="identifier">KMeansFlag</span> <span class="parameter">flag</span>,
+	<span class="identifier">CvArr</span> <span class="parameter">centers</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">KMeans2</span> ( 
+	<span class="parameter">samples</span> <span class="keyword">As</span> <span class="identifier">Array</span>,
+	<span class="parameter">samplesType</span> <span class="keyword">As</span> <span class="identifier">MatrixType</span>,
+	<span class="parameter">clusterCount</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	<span class="parameter">labels</span> <span class="keyword">As</span> <span class="identifier">Integer</span>(),
+	<span class="parameter">termcrit</span> <span class="keyword">As</span> <span class="identifier">CvTermCriteria</span>,
+	<span class="parameter">attemps</span> <span class="keyword">As</span> <span class="identifier">Integer</span>,
+	<span class="parameter">rng</span> <span class="keyword">As</span> <span class="identifier">CvRNG</span>,
+	<span class="parameter">flag</span> <span class="keyword">As</span> <span class="identifier">KMeansFlag</span>,
+	<span class="parameter">centers</span> <span class="keyword">As</span> <span class="identifier">CvArr</span>
+) <span class="keyword">As</span> <span class="identifier">Integer</span></pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="identifier">int</span> <span class="identifier">KMeans2</span>(
+	<span class="identifier">Array</span>^ <span class="parameter">samples</span>, 
+	<span class="identifier">MatrixType</span> <span class="parameter">samplesType</span>, 
+	<span class="identifier">int</span> <span class="parameter">clusterCount</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">int</span>&gt;^ <span class="parameter">labels</span>, 
+	<span class="identifier">CvTermCriteria</span> <span class="parameter">termcrit</span>, 
+	<span class="identifier">int</span> <span class="parameter">attemps</span>, 
+	<span class="identifier">CvRNG</span>^ <span class="parameter">rng</span>, 
+	<span class="identifier">KMeansFlag</span> <span class="parameter">flag</span>, 
+	<span class="identifier">CvArr</span>^ <span class="parameter">centers</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">KMeans2</span> : 
+        <span class="parameter">samples</span> : <span class="identifier">Array</span> * 
+        <span class="parameter">samplesType</span> : <span class="identifier">MatrixType</span> * 
+        <span class="parameter">clusterCount</span> : <span class="identifier">int</span> * 
+        <span class="parameter">labels</span> : <span class="identifier">int</span>[] * 
+        <span class="parameter">termcrit</span> : <span class="identifier">CvTermCriteria</span> * 
+        <span class="parameter">attemps</span> : <span class="identifier">int</span> * 
+        <span class="parameter">rng</span> : <span class="identifier">CvRNG</span> * 
+        <span class="parameter">flag</span> : <span class="identifier">KMeansFlag</span> * 
+        <span class="parameter">centers</span> : <span class="identifier">CvArr</span> <span class="keyword">-&gt;</span> <span class="identifier">int</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">samples</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/czz5hkty" target="_blank">System<span id="LST63159D8B_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Array</a><br />Floating-point matrix of input samples, one row per sample. </dd><dt><span class="parameter">samplesType</span></dt><dd>Type: <a href="d37a371b-c996-7a7e-efff-1fdfbaeac2bc.htm">OpenCvSharp<span id="LST63159D8B_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>MatrixType</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="samplesType"/&gt; documentation for "M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)"]</p></dd><dt><span class="parameter">clusterCount</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST63159D8B_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br />Number of clusters to split the set by. </dd><dt><span class="parameter">labels</span></dt><dd>Type: <span id="LST63159D8B_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_6?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST63159D8B_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><span id="LST63159D8B_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_8?cpp=&gt;|vb=()|nu=[]");</script><br />Output integer vector storing cluster indices for every sample. </dd><dt><span class="parameter">termcrit</span></dt><dd>Type: <a href="4705d956-cf01-5e8c-599c-f7d2c6e23206.htm">OpenCvSharp<span id="LST63159D8B_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvTermCriteria</a><br />Specifies maximum number of iterations and/or accuracy (distance the centers move by between the subsequent iterations). </dd><dt><span class="parameter">attemps</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">System<span id="LST63159D8B_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Int32</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="attemps"/&gt; documentation for "M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)"]</p></dd><dt><span class="parameter">rng</span></dt><dd>Type: <a href="638e0713-aa41-5e75-85a6-ac727a630be5.htm">OpenCvSharp<span id="LST63159D8B_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvRNG</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="rng"/&gt; documentation for "M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)"]</p></dd><dt><span class="parameter">flag</span></dt><dd>Type: <a href="ac5e7749-a206-592c-cc79-d32020e21b60.htm">OpenCvSharp<span id="LST63159D8B_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>KMeansFlag</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="flag"/&gt; documentation for "M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)"]</p></dd><dt><span class="parameter">centers</span></dt><dd>Type: <a href="142790b7-991f-0474-6dfb-7619025e0a0d.htm">OpenCvSharp<span id="LST63159D8B_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST63159D8B_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CvArr</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;param name="centers"/&gt; documentation for "M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)"]</p></dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br /><p style="color: #dc143c; font-size: 8.5pt; font-weight: bold;">[Missing &lt;returns&gt; documentation for "M:OpenCvSharp.Cv.KMeans2(System.Array,OpenCvSharp.MatrixType,System.Int32,System.Int32[],OpenCvSharp.CvTermCriteria,System.Int32,OpenCvSharp.CvRNG,OpenCvSharp.KMeansFlag,OpenCvSharp.CvArr)"]</p><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="8b8e6978-d4b3-8679-47d1-ddd2cb8d9fab.htm">Cv Class</a></div><div class="seeAlsoStyle"><a href="14212ce0-73f8-8876-3ecb-e75c32dcf76b.htm">KMeans2 Overload</a></div><div class="seeAlsoStyle"><a href="1bb515b3-6278-49e4-9a33-1054bd279323.htm">OpenCvSharp Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>

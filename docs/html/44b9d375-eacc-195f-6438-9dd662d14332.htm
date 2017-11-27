@@ -1,0 +1,87 @@
+﻿<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { }.OH_footer { }</style>
+    <link rel="stylesheet" type="text/css" href="../styles/branding.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" />
+    <script type="text/javascript" src="../scripts/branding.js"> </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Cv2.WarpPerspective Method (InputArray, OutputArray, Single[,], Size, Interpolation, BorderType, Nullable(Scalar))</title>
+    <meta name="Language" content="en-us" />
+    <meta name="Microsoft.Help.Id" content="M:OpenCvSharp.CPlusPlus.Cv2.WarpPerspective(OpenCvSharp.CPlusPlus.InputArray,OpenCvSharp.CPlusPlus.OutputArray,System.Single[0:,0:],OpenCvSharp.CPlusPlus.Size,OpenCvSharp.Interpolation,OpenCvSharp.BorderType,System.Nullable{OpenCvSharp.CPlusPlus.Scalar})" />
+    <meta name="Description" content="Applies a perspective transformation to an image." />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <meta name="BrandingAware" content="true" />
+    
+    <meta name="container" content="OpenCvSharp.CPlusPlus" />
+    <meta name="file" content="44b9d375-eacc-195f-6438-9dd662d14332" />
+    <meta name="guid" content="44b9d375-eacc-195f-6438-9dd662d14332" />
+    
+    <script type="text/javascript" src="../scripts/clipboard.min.js"></script>
+  </head>
+  <body onload="OnLoad('cs')">
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <div class="OH_outerDiv">
+      <div class="OH_outerContent">
+        <table class="TitleTable">
+          <tr>
+            <td class="OH_tdTitleColumn">Cv2<span id="LST87651774_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_0?cpp=::|nu=.");</script>WarpPerspective Method (InputArray, OutputArray, <span id="LST87651774_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_1?cpp=array&lt;");</script>Single<span id="LST87651774_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_2?cpp=,2&gt;|vb=(,)|nu=[,]");</script>, Size, Interpolation, BorderType, Nullable<span id="LST87651774_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Scalar<span id="LST87651774_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</td>
+            <td class="OH_tdRunningTitleColumn">OpenCvSharp Class Library</td>
+          </tr>
+        </table>
+        <div id="mainSection">
+          <div id="mainBody">
+            <span class="introStyle"></span> <div class="summary">
+            Applies a perspective transformation to an image.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus</a><br />
+    <strong>Assembly:</strong>
+   OpenCvSharp.CPlusPlus (in OpenCvSharp.CPlusPlus.dll) Version: 1.0.0.0 (1.0.0.0)<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><div class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs"><div class="OH_CodeSnippetContainerTabLeft" id="ID0EDCA_tabimgleft"> </div><div id="ID0EDCA_tab1" class="OH_CodeSnippetContainerTabFirst"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="OH_CodeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0EDCA_tabimgright"> </div></div><div class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="OH_copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">WarpPerspective</span>(
+	<span class="identifier">InputArray</span> <span class="parameter">src</span>,
+	<span class="identifier">OutputArray</span> <span class="parameter">dst</span>,
+	<span class="identifier">float</span>[,] <span class="parameter">m</span>,
+	<span class="identifier">Size</span> <span class="parameter">dsize</span>,
+	<span class="identifier">Interpolation</span> <span class="parameter">flags</span> = <span class="identifier">Interpolation</span>.Linear,
+	<span class="identifier">BorderType</span> <span class="parameter">borderMode</span> = <span class="identifier">BorderType</span>.Constant,
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Scalar</span>&gt; <span class="parameter">borderValue</span> = <span class="keyword">null</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Sub</span> <span class="identifier">WarpPerspective</span> ( 
+	<span class="parameter">src</span> <span class="keyword">As</span> <span class="identifier">InputArray</span>,
+	<span class="parameter">dst</span> <span class="keyword">As</span> <span class="identifier">OutputArray</span>,
+	<span class="parameter">m</span> <span class="keyword">As</span> <span class="identifier">Single</span>(,),
+	<span class="parameter">dsize</span> <span class="keyword">As</span> <span class="identifier">Size</span>,
+	Optional <span class="parameter">flags</span> <span class="keyword">As</span> <span class="identifier">Interpolation</span> = <span class="identifier">Interpolation</span>.Linear,
+	Optional <span class="parameter">borderMode</span> <span class="keyword">As</span> <span class="identifier">BorderType</span> = <span class="identifier">BorderType</span>.Constant,
+	Optional <span class="parameter">borderValue</span> <span class="keyword">As</span> <span class="identifier">Nullable</span>(<span class="keyword">Of</span> <span class="identifier">Scalar</span>) = <span class="keyword">Nothing</span>
+)</pre></div><div id="ID0EDCA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">static</span> <span class="keyword">void</span> <span class="identifier">WarpPerspective</span>(
+	<span class="identifier">InputArray</span>^ <span class="parameter">src</span>, 
+	<span class="identifier">OutputArray</span>^ <span class="parameter">dst</span>, 
+	<span class="keyword">array</span>&lt;<span class="identifier">float</span>,2&gt;^ <span class="parameter">m</span>, 
+	<span class="identifier">Size</span> <span class="parameter">dsize</span>, 
+	<span class="identifier">Interpolation</span> <span class="parameter">flags</span> = <span class="identifier">Interpolation</span>::Linear, 
+	<span class="identifier">BorderType</span> <span class="parameter">borderMode</span> = <span class="identifier">BorderType</span>::Constant, 
+	<span class="identifier">Nullable</span>&lt;<span class="identifier">Scalar</span>&gt; <span class="parameter">borderValue</span> = <span class="keyword">nullptr</span>
+)</pre></div><div id="ID0EDCA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">static</span> <span class="keyword">member</span> <span class="identifier">WarpPerspective</span> : 
+        <span class="parameter">src</span> : <span class="identifier">InputArray</span> * 
+        <span class="parameter">dst</span> : <span class="identifier">OutputArray</span> * 
+        <span class="parameter">m</span> : <span class="identifier">float32</span>[,] * 
+        <span class="parameter">dsize</span> : <span class="identifier">Size</span> * 
+        ?<span class="parameter">flags</span> : <span class="identifier">Interpolation</span> * 
+        ?<span class="parameter">borderMode</span> : <span class="identifier">BorderType</span> * 
+        ?<span class="parameter">borderValue</span> : <span class="identifier">Nullable</span>&lt;<span class="identifier">Scalar</span>&gt; 
+(* Defaults:
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">flags</span> = defaultArg <span class="identifier">flags</span> <span class="identifier">Interpolation</span>.Linear
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">borderMode</span> = defaultArg <span class="identifier">borderMode</span> <span class="identifier">BorderType</span>.Constant
+        <span class="keyword">let </span><span class="identifier">_</span><span class="identifier">borderValue</span> = defaultArg <span class="identifier">borderValue</span> <span class="keyword">null</span>
+*)
+<span class="keyword">-&gt;</span> <span class="keyword">unit</span> 
+</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">src</span></dt><dd>Type: <a href="50172d88-8d10-71ce-bfe9-ff22783233e8.htm">OpenCvSharp.CPlusPlus<span id="LST87651774_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>InputArray</a><br />input image.</dd><dt><span class="parameter">dst</span></dt><dd>Type: <a href="00323f68-6cb4-a6b0-8d05-495fd13d69db.htm">OpenCvSharp.CPlusPlus<span id="LST87651774_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>OutputArray</a><br />output image that has the size dsize and the same type as src.</dd><dt><span class="parameter">m</span></dt><dd>Type: <span id="LST87651774_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_7?cpp=array&lt;");</script><a href="http://msdn2.microsoft.com/en-us/library/3www918f" target="_blank">System<span id="LST87651774_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Single</a><span id="LST87651774_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_9?cpp=,2&gt;|vb=(,)|nu=[,]");</script><br />3x3 transformation matrix.</dd><dt><span class="parameter">dsize</span></dt><dd>Type: <a href="7b45af0c-0d0e-9c56-df45-78de4b873140.htm">OpenCvSharp.CPlusPlus<span id="LST87651774_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Size</a><br />size of the output image.</dd><dt><span class="parameter">flags</span> (Optional)</dt><dd>Type: <a href="75b47409-4e4b-4d1f-5e0b-f9bee30aed22.htm">OpenCvSharp<span id="LST87651774_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Interpolation</a><br />combination of interpolation methods (INTER_LINEAR or INTER_NEAREST) 
+            and the optional flag WARP_INVERSE_MAP, that sets M as the inverse transformation (dst -&gt; src).</dd><dt><span class="parameter">borderMode</span> (Optional)</dt><dd>Type: <a href="91db7527-217f-c711-2da9-82409141b926.htm">OpenCvSharp<span id="LST87651774_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>BorderType</a><br />pixel extrapolation method (BORDER_CONSTANT or BORDER_REPLICATE).</dd><dt><span class="parameter">borderValue</span> (Optional)</dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/b3h38hb0" target="_blank">System<span id="LST87651774_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Nullable</a><span id="LST87651774_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_14?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="e479bb89-9e37-ac3c-fd41-8ea3ca2b978d.htm">Scalar</a><span id="LST87651774_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST87651774_15?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />value used in case of a constant border; by default, it equals 0.</dd></dl><div class="OH_CollapsibleAreaRegion" id="seeAlsoSection"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"> </div><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="9062e434-b8f0-fae9-1d86-2808abe07356.htm">Cv2 Class</a></div><div class="seeAlsoStyle"><a href="85c1ff92-d2f7-00b9-76ea-bb7db0590e99.htm">WarpPerspective Overload</a></div><div class="seeAlsoStyle"><a href="fea94644-8388-456b-c7ca-abf2e2e70cad.htm">OpenCvSharp.CPlusPlus Namespace</a></div></div>
+        </div>
+      </div>
+    </div>
+    <div id="OH_footer" class="OH_footer"> </div>
+  </body>
+</html>
